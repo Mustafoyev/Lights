@@ -63,6 +63,13 @@
 }
 
 @media only screen and (max-width: 565px) {
+  .catalog__menu__inner {
+    padding: 10px 0 30px 0;
+  }
+  .catalog__menu__title {
+    font-size: 18px;
+    line-height: 40px;
+  }
   .catalog__menu__list {
     flex-wrap: nowrap;
     flex-direction: row;

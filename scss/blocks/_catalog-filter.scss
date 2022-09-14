@@ -112,6 +112,13 @@
   background-color: transparent;
   background: #ffc94f;
   border-radius: 2px;
+  transition: 0.2s ease;
+  cursor: pointer;
+
+  &:hover {
+    background-color: transparent;
+    border: 1px solid #e5e5e5;
+  }
 }
 
 .news__title {

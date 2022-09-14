@@ -626,6 +626,11 @@ main {
   background: #ffffff;
   border: 1px solid #e5e5e5;
   border-radius: 2px;
+  transition: 0.2s ease;
+}
+.catalog__menu__item:hover {
+  background: #3d4f64;
+  box-shadow: 0px 0px 15px rgba(255, 201, 79, 0.3);
 }
 
 .catalog__menu__link {
@@ -634,6 +639,10 @@ main {
   font-size: 14px;
   line-height: 18px;
   color: #535353;
+  transition: 0.2s ease;
+}
+.catalog__menu__item:hover .catalog__menu__link {
+  color: #fff;
 }
 
 @media only screen and (max-width: 565px) {
@@ -757,6 +766,12 @@ main {
   background-color: transparent;
   background: #ffc94f;
   border-radius: 2px;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+.filters__primenit:hover {
+  background-color: transparent;
+  border: 1px solid #e5e5e5;
 }
 
 .news__title {

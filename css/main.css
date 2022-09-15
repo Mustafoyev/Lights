@@ -1347,6 +1347,20 @@ main {
   .detail__bot {
     margin-bottom: 20px;
   }
+  summary {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  summary::after {
+    display: block;
+    margin-left: auto;
+    width: 11px;
+    height: 7px;
+    background-image: url("../../images/Arrow.svg");
+    background-repeat: no-repeat;
+    content: "";
+  }
   .company__detail summary {
     font-weight: 700;
     font-size: 14px;

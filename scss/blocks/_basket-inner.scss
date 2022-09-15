@@ -31,6 +31,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  gap: 50px;
 }
 
 .basket__item {
@@ -43,6 +44,10 @@
   &:hover {
     background: #ffffff;
     box-shadow: 0px 4px 10px rgba(243, 168, 0, 0.2);
+  }
+
+  &:first-child {
+    margin-bottom: 50px;
   }
 }
 
@@ -62,6 +67,19 @@
   font-size: 16px;
   line-height: 40px;
   color: #535353;
+}
+
+.trekoviy__titless {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+
+.trekoviy__text {
+  margin: 0;
+  color: #535353;
+  font-size: 14px;
+  line-height: 21px;
 }
 
 .trekoviy__all {
@@ -179,8 +197,27 @@
 }
 
 @media only screen and (max-width: 565px) {
+  .basket__item {
+    &:first-child {
+      margin-bottom: 25px;
+    }
+  }
+  .trekoviy {
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+  }
   .basket__table {
     display: none;
+  }
+
+  .basket__item {
+    flex-direction: column;
+  }
+
+  .trekoviy__text {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
   }
 
   .basket__left {
@@ -188,9 +225,31 @@
   }
   .basket__img {
     margin-right: 12px;
+    width: 75px;
+    height: 55px;
   }
 
   .right {
+    margin-left: 95px;
+    padding-top: 10px;
+    justify-content: space-between;
+    max-width: 253px;
+    width: 100%;
+  }
+
+  .right__add {
+    margin: 0;
+  }
+
+  .right__total {
+    margin: 0;
+  }
+
+  .right__box {
+    display: flex;
+  }
+
+  .delete {
     display: none;
   }
 }

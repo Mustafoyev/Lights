@@ -1,187 +1,412 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./css/main.css" />
-		<title>О компании</title>
-	</head>
 
-	<body>
-		<!-- site-header -->
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./css/main.css" />
+	<title>О компании</title>
+</head>
 
-		<header class="site-header">
+<body>
+	<!-- site-header -->
+
+	<header class="site-header">
+		<div class="container">
+			<div class="site-header__inner">
+				<a class="logo" href="./index.html">
+					<img class="logo__link" src="./images/logo.svg" alt="Site logotype" width="75" height="58" />
+				</a>
+
+				<nav class="navbar">
+					<ul class="navbar__list">
+						<li class="navbar__item">
+							<a class="navbar__link" href="./company.html">О компании</a>
+						</li>
+						<li class="navbar__item">
+							<a class="navbar__link" href="./services.html">Услуги</a>
+						</li>
+						<li class="navbar__item">
+							<a class="navbar__link" href="#">Проекты </a>
+						</li>
+						<li class="navbar__item">
+							<a class="navbar__link" href="./delivery.html">Доставка и оплата
+							</a>
+						</li>
+						<li class="navbar__item">
+							<a class="navbar__link" href="#">Контакты </a>
+						</li>
+						<li class="navbar__item">
+							<a class="navbar__link navbar__link--active" href="./basket.html">Подборка</a>
+						</li>
+					</ul>
+					<div class="site-header__links">
+						<a class="navbar__link navbar__link--mail" href="mailto:info@i-lights.ru">info@i-lights.ru
+						</a>
+						<a class="navbar__link navbar__link--tel" href="tel:+74952335557">+7 (495) 233 55 57</a>
+					</div>
+				</nav>
+				<button class="burger">
+					<span class="line"></span>
+					<span class="line"></span>
+					<span class="line"></span>
+				</button>
+			</div>
+		</div>
+	</header>
+
+	<!-- /site-header -->
+
+	<!-- site-main -->
+	<main class="site-main">
+		<section class="company__menu company">
 			<div class="container">
-				<div class="site-header__inner">
-					<a class="logo" href="./index.html">
-						<img
-							class="logo__link"
-							src="./images/logo.svg"
-							alt="Site logotype"
-							width="75"
-							height="58"
-						/>
-					</a>
+				<div class="catalog__menu__inner company__inner">
+					<h2 class="catalog__menu__title">О компании</h2>
+					<ul class="company__list">
+						<li class="company__item">
+							<a href="#" class="company__link company__link--active">
+								Кто мы
+							</a>
+						</li>
+						<li class="company__item">
+							<a href="#" class="company__link">
+								В чем мы можем Вам помочь
+							</a>
+						</li>
+						<li class="company__item">
+							<a href="#" class="company__link">
+								В чем мы можем Вам помочь
+							</a>
+						</li>
+						<li class="company__item">
+							<a href="#" class="company__link">
+								Реквизиты компании
+							</a>
+						</li>
+					</ul>
+					<div class="company__info">
+						<p class="company__text">
+							Мы ценим Ваше время, поэтому, коротко о главном.
+							<br>
+							<br>
+							Наша компания была образована с целью предложить Российскому рынку профессиональные
+							светотехнические решения для освещения магазинов, офисов и объектов
+							общественно-развлекательного назначения. Сегодня мы поставляем осветительное оборудование
+							различных ценовых категорий из стран Юго-Восточной Азии и Европы, а так же являемся
+							дистрибьюторами лучших Российских производителей. А среди наших клиентов, сетевые и частные
+							магазины одежды и обуви, продуктовые магазины, торговые и офисные центры, представители
+							индустрии красоты и здоровья, кафе, рестораны, отели, коттеджные поселки и частные
+							заказчики.
+							<br>
+							<br>
+							Мы предоставляем полный комплекс услуг в освещении от идеи до поставки: проектируем,
+							подбираем оборудование, разрабатываем концепцию освещения и осуществляем поставку.
+							<br>
+							<br>
+							Основная наша специализация - это коммерческое освещение, т.е. поставки освещения для тех
+							мест, где люди работают, занимаются спортом, совершают покупки, проводят досуг и отдыхают. А
+							стилистические направления, которые мы охватываем начинаются со специальных светильников для
+							функционального использования и доходят до дизайнерских светильников от всемирно известных
+							производителей.
+						</p>
+					</div>
+					<div class="company__bottom bottom">
+						<div class="bottom__left">
+							<h3 class="company__title">
+								Наши решения
+							</h3>
+							<ul class="bottom__list">
+								<li class="bottom__item bottom__item--active">
+									<a href="#" class="bottom__link bottom__link--active">Для магазинов</a>
+								</li>
+								<li class="bottom__item">
+									<a href="#" class="bottom__link">Для общественных мест</a>
+								</li>
+								<li class="bottom__item">
+									<a href="#" class="bottom__link">Для фасадов</a>
+								</li>
+								<li class="bottom__item">
+									<a href="#" class="bottom__link">Для кафе и ресторанов</a>
+								</li>
+								<li class="bottom__item">
+									<a href="#" class="bottom__link">Для офисов</a>
+								</li>
+								<li class="bottom__item">
+									<a href="#" class="bottom__link">Для жилых интерьеров</a>
+								</li>
+							</ul>
+						</div>
+						<img src="./images/Картинка.png" width="962" height="486" alt="Picture">
+					</div>
+					<div class="company__media">
+						<details class="company__detail">
+							<div class="company__infoDetail">
+								<p class="company__textDetail">
+									Мы ценим Ваше время, поэтому, коротко о главном.
+									<br>
+									<br>
+									Наша компания была образована с целью предложить Российскому рынку профессиональные
+									светотехнические решения для освещения магазинов, офисов и объектов
+									общественно-развлекательного назначения. Сегодня мы поставляем осветительное
+									оборудование
+									различных ценовых категорий из стран Юго-Восточной Азии и Европы, а так же являемся
+									дистрибьюторами лучших Российских производителей. А среди наших клиентов, сетевые и
+									частные
+									магазины одежды и обуви, продуктовые магазины, торговые и офисные центры,
+									представители
+									индустрии красоты и здоровья, кафе, рестораны, отели, коттеджные поселки и частные
+									заказчики.
+									<br>
+									<br>
+									Мы предоставляем полный комплекс услуг в освещении от идеи до поставки: проектируем,
+									подбираем оборудование, разрабатываем концепцию освещения и осуществляем поставку.
+									<br>
+									<br>
+									Основная наша специализация - это коммерческое освещение, т.е. поставки освещения
+									для
+									тех
+									мест, где люди работают, занимаются спортом, совершают покупки, проводят досуг и
+									отдыхают. А
+									стилистические направления, которые мы охватываем начинаются со специальных
+									светильников
+									для
+									функционального использования и доходят до дизайнерских светильников от всемирно
+									известных
+									производителей.
+								</p>
+							</div>
+							<summary>Кто мы</summary>
+						</details>
+						<details class="company__detail">
+							<div class="company__infoDetail">
+								<p class="company__textDetail">
+									Мы ценим Ваше время, поэтому, коротко о главном.
+									<br>
+									<br>
+									Наша компания была образована с целью предложить Российскому рынку профессиональные
+									светотехнические решения для освещения магазинов, офисов и объектов
+									общественно-развлекательного назначения. Сегодня мы поставляем осветительное
+									оборудование
+									различных ценовых категорий из стран Юго-Восточной Азии и Европы, а так же являемся
+									дистрибьюторами лучших Российских производителей. А среди наших клиентов, сетевые и
+									частные
+									магазины одежды и обуви, продуктовые магазины, торговые и офисные центры,
+									представители
+									индустрии красоты и здоровья, кафе, рестораны, отели, коттеджные поселки и частные
+									заказчики.
+									<br>
+									<br>
+									Мы предоставляем полный комплекс услуг в освещении от идеи до поставки: проектируем,
+									подбираем оборудование, разрабатываем концепцию освещения и осуществляем поставку.
+									<br>
+									<br>
+									Основная наша специализация - это коммерческое освещение, т.е. поставки освещения
+									для
+									тех
+									мест, где люди работают, занимаются спортом, совершают покупки, проводят досуг и
+									отдыхают. А
+									стилистические направления, которые мы охватываем начинаются со специальных
+									светильников
+									для
+									функционального использования и доходят до дизайнерских светильников от всемирно
+									известных
+									производителей.
+								</p>
+							</div>
+							<summary>В чем мы можем Вам помочь</summary>
+						</details>
+						<details class="company__detail">
+							<div class="company__infoDetail">
+								<p class="company__textDetail">
+									Мы ценим Ваше время, поэтому, коротко о главном.
+									<br>
+									<br>
+									Наша компания была образована с целью предложить Российскому рынку профессиональные
+									светотехнические решения для освещения магазинов, офисов и объектов
+									общественно-развлекательного назначения. Сегодня мы поставляем осветительное
+									оборудование
+									различных ценовых категорий из стран Юго-Восточной Азии и Европы, а так же являемся
+									дистрибьюторами лучших Российских производителей. А среди наших клиентов, сетевые и
+									частные
+									магазины одежды и обуви, продуктовые магазины, торговые и офисные центры,
+									представители
+									индустрии красоты и здоровья, кафе, рестораны, отели, коттеджные поселки и частные
+									заказчики.
+									<br>
+									<br>
+									Мы предоставляем полный комплекс услуг в освещении от идеи до поставки: проектируем,
+									подбираем оборудование, разрабатываем концепцию освещения и осуществляем поставку.
+									<br>
+									<br>
+									Основная наша специализация - это коммерческое освещение, т.е. поставки освещения
+									для
+									тех
+									мест, где люди работают, занимаются спортом, совершают покупки, проводят досуг и
+									отдыхают. А
+									стилистические направления, которые мы охватываем начинаются со специальных
+									светильников
+									для
+									функционального использования и доходят до дизайнерских светильников от всемирно
+									известных
+									производителей.
+								</p>
+							</div>
+							<summary>О продукции</summary>
+						</details>
+						<details class="company__detail detail__bot">
+							<div class="company__infoDetail">
+								<p class="company__textDetail">
+									Мы ценим Ваше время, поэтому, коротко о главном.
+									<br>
+									<br>
+									Наша компания была образована с целью предложить Российскому рынку профессиональные
+									светотехнические решения для освещения магазинов, офисов и объектов
+									общественно-развлекательного назначения. Сегодня мы поставляем осветительное
+									оборудование
+									различных ценовых категорий из стран Юго-Восточной Азии и Европы, а так же являемся
+									дистрибьюторами лучших Российских производителей. А среди наших клиентов, сетевые и
+									частные
+									магазины одежды и обуви, продуктовые магазины, торговые и офисные центры,
+									представители
+									индустрии красоты и здоровья, кафе, рестораны, отели, коттеджные поселки и частные
+									заказчики.
+									<br>
+									<br>
+									Мы предоставляем полный комплекс услуг в освещении от идеи до поставки: проектируем,
+									подбираем оборудование, разрабатываем концепцию освещения и осуществляем поставку.
+									<br>
+									<br>
+									Основная наша специализация - это коммерческое освещение, т.е. поставки освещения
+									для
+									тех
+									мест, где люди работают, занимаются спортом, совершают покупки, проводят досуг и
+									отдыхают. А
+									стилистические направления, которые мы охватываем начинаются со специальных
+									светильников
+									для
+									функционального использования и доходят до дизайнерских светильников от всемирно
+									известных
+									производителей.
+								</p>
+							</div>
+							<summary> Реквизиты компании</summary>
+						</details>
+						<div>
+							<h3 class="company__titleMedia">
+								Наши решения
+							</h3>
+							<div class="company__boxImg">
+								<span class="company__boxSpan">Для магазинов</span>
+								<img src="./images/Картинка.png" alt="Picture" width="380" height="170">
+							</div>
+							<div class="company__boxImg">
+								<span class="company__boxSpan">Для общественных мест</span>
+								<img src="./images/obshestv.png" alt="Picture" width="380" height="170">
+							</div>
+							<div class="company__boxImg">
+								<span class="company__boxSpan">Для фасадов и ландшафтов</span>
+								<img src="./images/fasad.png" alt="Picture" width="380" height="170">
+							</div>
+							<div class="company__boxImg">
+								<span class="company__boxSpan">Для кафе и ресторанов</span>
+								<img src="./images/reustarant.png" alt="Picture" width="380" height="170">
+							</div>
+							<div class="company__boxImg">
+								<span class="company__boxSpan">Для офисов</span>
+								<img src="./images/office.png" alt="Picture" width="380" height="170">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<!-- /site-main -->
 
-					<nav class="navbar">
-						<ul class="navbar__list">
-							<li class="navbar__item">
-								<a class="navbar__link" href="./company.html">О компании</a>
-							</li>
-							<li class="navbar__item">
-								<a class="navbar__link" href="./services.html">Услуги</a>
-							</li>
-							<li class="navbar__item">
-								<a class="navbar__link" href="#">Проекты </a>
-							</li>
-							<li class="navbar__item">
-								<a class="navbar__link" href="./delivery.html"
-									>Доставка и оплата
+	<!-- ste-footer -->
+	<footer class="site-footer">
+		<div class="container">
+			<div class="site-footer__inner">
+				<div class="site-footer__logo">
+					<a class="logo-footer" href="./index.html">
+						<img class="logo-footer__img" src="./images/logo-footer.svg" alt="Logotype" width="66"
+							height="42" />
+					</a>
+					<span class="date date--active">© Technolight 2015-2021 </span>
+				</div>
+				<div class="wrapper">
+					<div class="site-footer__menu">
+						<strong class="site-footer__menu-title"> Каталог товаров </strong>
+						<ul class="site-footer__menu-list">
+							<li class="site-footer__menu-item">
+								<a class="site-footer__menu-link" href="#">Трековые светильники
 								</a>
 							</li>
-							<li class="navbar__item">
-								<a class="navbar__link" href="#">Контакты </a>
+							<li class="site-footer__menu-item">
+								<a class="site-footer__menu-link" href="#">Встраиваемые светильники</a>
 							</li>
-							<li class="navbar__item">
-								<a
-									class="navbar__link navbar__link--active"
-									href="./basket.html"
-									>Подборка</a
-								>
+							<li class="site-footer__menu-item">
+								<a class="site-footer__menu-link" href="#">Профильные светильники</a>
 							</li>
-						</ul>
-						<div class="site-header__links">
-							<a
-								class="navbar__link navbar__link--mail"
-								href="mailto:info@i-lights.ru"
-								>info@i-lights.ru
-							</a>
-							<a class="navbar__link navbar__link--tel" href="tel:+74952335557"
-								>+7 (495) 233 55 57</a
-							>
-						</div>
-					</nav>
-					<button class="burger">
-						<span class="line"></span>
-						<span class="line"></span>
-						<span class="line"></span>
-					</button>
-				</div>
-			</div>
-		</header>
-
-		<!-- /site-header -->
-
-		<!-- site-main -->
-		<main class="site-main"></main>
-		<!-- /site-main -->
-
-		<!-- ste-footer -->
-		<footer class="site-footer">
-			<div class="container">
-				<div class="site-footer__inner">
-					<div class="site-footer__logo">
-						<a class="logo-footer" href="./index.html">
-							<img
-								class="logo-footer__img"
-								src="./images/logo-footer.svg"
-								alt="Logotype"
-								width="66"
-								height="42"
-							/>
-						</a>
-						<span class="date date--active">© Technolight 2015-2021 </span>
-					</div>
-					<div class="wrapper">
-						<div class="site-footer__menu">
-							<strong class="site-footer__menu-title"> Каталог товаров </strong>
-							<ul class="site-footer__menu-list">
-								<li class="site-footer__menu-item">
-									<a class="site-footer__menu-link" href="#"
-										>Трековые светильники
-									</a>
-								</li>
-								<li class="site-footer__menu-item">
-									<a class="site-footer__menu-link" href="#"
-										>Встраиваемые светильники</a
-									>
-								</li>
-								<li class="site-footer__menu-item">
-									<a class="site-footer__menu-link" href="#"
-										>Профильные светильники</a
-									>
-								</li>
-								<li class="site-footer__menu-item">
-									<a class="site-footer__menu-link" href="#"
-										>Фигурные светильники</a
-									>
-								</li>
-								<li class="site-footer__menu-item">
-									<a class="site-footer__menu-link" href="#"
-										>Светильники Армстронг</a
-									>
-								</li>
-								<li class="site-footer__menu-item">
-									<a class="site-footer__menu-link" href="#"
-										>Армстронг с равномерной засветкой</a
-									>
-								</li>
-								<li class="site-footer__menu-item">
-									<a class="site-footer__menu-link" href="#">Произовдители</a>
-								</li>
-							</ul>
-						</div>
-						<div class="site-footer__links">
-							<ul class="site-footer__links-list">
-								<li class="site-footer__links-item">
-									<a class="site-footer__links-link" href="#">Как заказать </a>
-								</li>
-								<li class="site-footer__links-item">
-									<a class="site-footer__links-link" href="#">Оплата</a>
-								</li>
-								<li class="site-footer__links-item">
-									<a class="site-footer__links-link" href="#">Доставка</a>
-								</li>
-								<li class="site-footer__links-item">
-									<a class="site-footer__links-link" href="#"
-										>Реквизиты компании</a
-									>
-								</li>
-								<li class="site-footer__links-item">
-									<a class="site-footer__links-link" href="#"
-										>Правовая информация</a
-									>
-								</li>
-								<li class="site-footer__links-item">
-									<a class="site-footer__links-link" href="#">FAQ</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="site-footer__info">
-						<strong class="site-footer__info-title">Контакты </strong>
-						<ul class="site-footer__info-list">
-							<li class="site-footer__info-item">
-								<a class="site-footer__info-link" href="#">место магазина</a>
+							<li class="site-footer__menu-item">
+								<a class="site-footer__menu-link" href="#">Фигурные светильники</a>
 							</li>
-							<li class="site-footer__info-item">
-								<a class="site-footer__info-link" href="tel:+74952335557"
-									>+7 (495) 233 55 57</a
-								>
+							<li class="site-footer__menu-item">
+								<a class="site-footer__menu-link" href="#">Светильники Армстронг</a>
 							</li>
-							<li class="site-footer__info-item">
-								<a class="site-footer__info-link" href="mailto:info@i-lights.ru"
-									>info@i-lights.ru</a
-								>
+							<li class="site-footer__menu-item">
+								<a class="site-footer__menu-link" href="#">Армстронг с равномерной засветкой</a>
+							</li>
+							<li class="site-footer__menu-item">
+								<a class="site-footer__menu-link" href="#">Произовдители</a>
 							</li>
 						</ul>
 					</div>
-					<span class="etad">© Technolight 2015-2021 </span>
+					<div class="site-footer__links">
+						<ul class="site-footer__links-list">
+							<li class="site-footer__links-item">
+								<a class="site-footer__links-link" href="#">Как заказать </a>
+							</li>
+							<li class="site-footer__links-item">
+								<a class="site-footer__links-link" href="#">Оплата</a>
+							</li>
+							<li class="site-footer__links-item">
+								<a class="site-footer__links-link" href="#">Доставка</a>
+							</li>
+							<li class="site-footer__links-item">
+								<a class="site-footer__links-link" href="#">Реквизиты компании</a>
+							</li>
+							<li class="site-footer__links-item">
+								<a class="site-footer__links-link" href="#">Правовая информация</a>
+							</li>
+							<li class="site-footer__links-item">
+								<a class="site-footer__links-link" href="#">FAQ</a>
+							</li>
+						</ul>
+					</div>
 				</div>
+				<div class="site-footer__info">
+					<strong class="site-footer__info-title">Контакты </strong>
+					<ul class="site-footer__info-list">
+						<li class="site-footer__info-item">
+							<a class="site-footer__info-link" href="#">место магазина</a>
+						</li>
+						<li class="site-footer__info-item">
+							<a class="site-footer__info-link" href="tel:+74952335557">+7 (495) 233 55 57</a>
+						</li>
+						<li class="site-footer__info-item">
+							<a class="site-footer__info-link" href="mailto:info@i-lights.ru">info@i-lights.ru</a>
+						</li>
+					</ul>
+				</div>
+				<span class="etad">© Technolight 2015-2021 </span>
 			</div>
-		</footer>
-		<!-- /ste-footer -->
-		<script src="./js/main.js"></script>
-	</body>
+		</div>
+	</footer>
+	<!-- /ste-footer -->
+	<script src="./js/main.js"></script>
+</body>
+
 </html>

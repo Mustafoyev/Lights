@@ -1,187 +1,263 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./css/main.css" />
-		<title>Подборка</title>
-	</head>
 
-	<body>
-		<!-- site-header -->
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./css/main.css" />
+	<title>Подборка</title>
+</head>
 
-		<header class="site-header">
+<body>
+	<!-- site-header -->
+
+	<header class="site-header">
+		<div class="container">
+			<div class="site-header__inner">
+				<a class="logo" href="./index.html">
+					<img class="logo__link" src="./images/logo.svg" alt="Site logotype" width="75" height="58" />
+				</a>
+
+				<nav class="navbar">
+					<ul class="navbar__list">
+						<li class="navbar__item">
+							<a class="navbar__link" href="./company.html">О компании</a>
+						</li>
+						<li class="navbar__item">
+							<a class="navbar__link" href="./services.html">Услуги</a>
+						</li>
+						<li class="navbar__item">
+							<a class="navbar__link" href="#">Проекты </a>
+						</li>
+						<li class="navbar__item">
+							<a class="navbar__link" href="./delivery.html">Доставка и оплата
+							</a>
+						</li>
+						<li class="navbar__item">
+							<a class="navbar__link" href="#">Контакты </a>
+						</li>
+						<li class="navbar__item">
+							<a class="navbar__link navbar__link--active" href="./basket.html">Подборка</a>
+						</li>
+					</ul>
+					<div class="site-header__links">
+						<a class="navbar__link navbar__link--mail" href="mailto:info@i-lights.ru">info@i-lights.ru
+						</a>
+						<a class="navbar__link navbar__link--tel" href="tel:+74952335557">+7 (495) 233 55 57</a>
+					</div>
+				</nav>
+				<button class="burger">
+					<span class="line"></span>
+					<span class="line"></span>
+					<span class="line"></span>
+				</button>
+			</div>
+		</div>
+	</header>
+
+	<!-- /site-header -->
+
+	<!-- site-main -->
+	<main class="catalog">
+		<section class="catalog__menu">
 			<div class="container">
-				<div class="site-header__inner">
-					<a class="logo" href="./index.html">
-						<img
-							class="logo__link"
-							src="./images/logo.svg"
-							alt="Site logotype"
-							width="75"
-							height="58"
-						/>
-					</a>
+				<div class="catalog__menu__inner">
+					<h2 class="catalog__menu__title">Падборка</h2>
+					<table class="basket__table">
+						<tr class="basket__head">
+							<th class="basket__headTitle">
+								<span class="basketheadTitles">Товар</span>
+							</th>
+							<th class="basket__headTitle">
+								<span class="basketheadTitles">Описание</span>
+							</th>
+							<th class="basket__headTitle">
+								<span class="basketheadTitles">Количество</span>
+							</th>
+							<th class="basket__headTitle">
+								<span class="basketheadTitles">Сумма</span>
+							</th>
+							<th class="basket__headTitle">
+								<span class="basketheadTitles">Код:5324</span>
+							</th>
+						</tr>
+					</table>
+					<ul class="basket__list">
+						<li class="basket__item">
+							<div class="basket__left">
+								<img class="basket__img" src="./images/trekoviy.png" alt="Lamp" width="135"
+									height="113">
+								<div class="basket__trekoviy trekoviy">
+									<h4 class="trekoviy__titles">Трековый светильник EVO L</h4>
+									<div class="trekoviy__all">
+										<div class="trekoviy__box1">
+											<span class="trekoviy__span"> 50Вт </span>
+											<span class="trekoviy__span"> CRI/Ra 80+ </span>
+											<span class="trekoviy__span"> Серый </span>
+										</div>
+										<div class="trekoviy__box2">
+											<span class="trekoviy__span"> 50Вт </span>
+											<span class="trekoviy__span"> CRI/Ra 80+ </span>
+											<span class="trekoviy__span"> Серый</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="basket__right right">
+								<div class="right__add">
+									<div class="right__box">
+										<button class="right__btn1">-</button>
+										<span class="right__span">1</span>
+										<button class="right__btn2">+</button>
+									</div>
+									<span class="right__spanLeft">Осталось 2 шт</span>
+								</div>
+								<span class="right__total">
+									от 3 300 $
+								</span>
+								<span class="delete">
+									<span class="deletePlus">+</span>
+									Удалить
+								</span>
+							</div>
+						</li>
+						<li class="basket__item">
+							<div class="basket__left">
+								<img class="basket__img" src="./images/trekoviy.png" alt="Lamp" width="135"
+									height="113">
+								<div class="basket__trekoviy trekoviy">
+									<h4 class="trekoviy__titles">Трековый светильник EVO L</h4>
+									<div class="trekoviy__all">
+										<div class="trekoviy__box1">
+											<span class="trekoviy__span"> 50Вт </span>
+											<span class="trekoviy__span"> CRI/Ra 80+ </span>
+											<span class="trekoviy__span"> Серый </span>
+										</div>
+										<div class="trekoviy__box2">
+											<span class="trekoviy__span"> 50Вт </span>
+											<span class="trekoviy__span"> CRI/Ra 80+ </span>
+											<span class="trekoviy__span"> Серый</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="basket__right right">
+								<div class="right__add">
+									<div class="right__box">
+										<button class="right__btn1">-</button>
+										<span class="right__span">1</span>
+										<button class="right__btn2">+</button>
+									</div>
+									<span class="right__spanLeft">Осталось 2 шт</span>
+								</div>
+								<span class="right__total">
+									от 3 300 $
+								</span>
+								<span class="delete">
+									<span class="deletePlus">+</span>
+									Удалить
+								</span>
+							</div>
+						</li>
+					</ul>
+					<div class="basket__btns">
+						<a href="./email.html" class="basket__btnLink">
+							<button class="basket__btn1">Отправить подборку на почту</button>
+						</a>
+						<a href="./registration.html" class="basket__btnLink">
+							<button class="basket__btn2">Отправить заявку на расчет</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<!-- /site-main -->
+	<!-- /site-main -->
 
-					<nav class="navbar">
-						<ul class="navbar__list">
-							<li class="navbar__item">
-								<a class="navbar__link" href="./company.html">О компании</a>
-							</li>
-							<li class="navbar__item">
-								<a class="navbar__link" href="./services.html">Услуги</a>
-							</li>
-							<li class="navbar__item">
-								<a class="navbar__link" href="#">Проекты </a>
-							</li>
-							<li class="navbar__item">
-								<a class="navbar__link" href="./delivery.html"
-									>Доставка и оплата
+	<!-- ste-footer -->
+	<footer class="site-footer">
+		<div class="container">
+			<div class="site-footer__inner">
+				<div class="site-footer__logo">
+					<a class="logo-footer" href="./index.html">
+						<img class="logo-footer__img" src="./images/logo-footer.svg" alt="Logotype" width="66"
+							height="42" />
+					</a>
+					<span class="date date--active">© Technolight 2015-2021 </span>
+				</div>
+				<div class="wrapper">
+					<div class="site-footer__menu">
+						<strong class="site-footer__menu-title"> Каталог товаров </strong>
+						<ul class="site-footer__menu-list">
+							<li class="site-footer__menu-item">
+								<a class="site-footer__menu-link" href="#">Трековые светильники
 								</a>
 							</li>
-							<li class="navbar__item">
-								<a class="navbar__link" href="#">Контакты </a>
+							<li class="site-footer__menu-item">
+								<a class="site-footer__menu-link" href="#">Встраиваемые светильники</a>
 							</li>
-							<li class="navbar__item">
-								<a
-									class="navbar__link navbar__link--active"
-									href="./basket.html"
-									>Подборка</a
-								>
+							<li class="site-footer__menu-item">
+								<a class="site-footer__menu-link" href="#">Профильные светильники</a>
 							</li>
-						</ul>
-						<div class="site-header__links">
-							<a
-								class="navbar__link navbar__link--mail"
-								href="mailto:info@i-lights.ru"
-								>info@i-lights.ru
-							</a>
-							<a class="navbar__link navbar__link--tel" href="tel:+74952335557"
-								>+7 (495) 233 55 57</a
-							>
-						</div>
-					</nav>
-					<button class="burger">
-						<span class="line"></span>
-						<span class="line"></span>
-						<span class="line"></span>
-					</button>
-				</div>
-			</div>
-		</header>
-
-		<!-- /site-header -->
-
-		<!-- site-main -->
-		<main class="site-main"></main>
-		<!-- /site-main -->
-
-		<!-- ste-footer -->
-		<footer class="site-footer">
-			<div class="container">
-				<div class="site-footer__inner">
-					<div class="site-footer__logo">
-						<a class="logo-footer" href="./index.html">
-							<img
-								class="logo-footer__img"
-								src="./images/logo-footer.svg"
-								alt="Logotype"
-								width="66"
-								height="42"
-							/>
-						</a>
-						<span class="date date--active">© Technolight 2015-2021 </span>
-					</div>
-					<div class="wrapper">
-						<div class="site-footer__menu">
-							<strong class="site-footer__menu-title"> Каталог товаров </strong>
-							<ul class="site-footer__menu-list">
-								<li class="site-footer__menu-item">
-									<a class="site-footer__menu-link" href="#"
-										>Трековые светильники
-									</a>
-								</li>
-								<li class="site-footer__menu-item">
-									<a class="site-footer__menu-link" href="#"
-										>Встраиваемые светильники</a
-									>
-								</li>
-								<li class="site-footer__menu-item">
-									<a class="site-footer__menu-link" href="#"
-										>Профильные светильники</a
-									>
-								</li>
-								<li class="site-footer__menu-item">
-									<a class="site-footer__menu-link" href="#"
-										>Фигурные светильники</a
-									>
-								</li>
-								<li class="site-footer__menu-item">
-									<a class="site-footer__menu-link" href="#"
-										>Светильники Армстронг</a
-									>
-								</li>
-								<li class="site-footer__menu-item">
-									<a class="site-footer__menu-link" href="#"
-										>Армстронг с равномерной засветкой</a
-									>
-								</li>
-								<li class="site-footer__menu-item">
-									<a class="site-footer__menu-link" href="#">Произовдители</a>
-								</li>
-							</ul>
-						</div>
-						<div class="site-footer__links">
-							<ul class="site-footer__links-list">
-								<li class="site-footer__links-item">
-									<a class="site-footer__links-link" href="#">Как заказать </a>
-								</li>
-								<li class="site-footer__links-item">
-									<a class="site-footer__links-link" href="#">Оплата</a>
-								</li>
-								<li class="site-footer__links-item">
-									<a class="site-footer__links-link" href="#">Доставка</a>
-								</li>
-								<li class="site-footer__links-item">
-									<a class="site-footer__links-link" href="#"
-										>Реквизиты компании</a
-									>
-								</li>
-								<li class="site-footer__links-item">
-									<a class="site-footer__links-link" href="#"
-										>Правовая информация</a
-									>
-								</li>
-								<li class="site-footer__links-item">
-									<a class="site-footer__links-link" href="#">FAQ</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="site-footer__info">
-						<strong class="site-footer__info-title">Контакты </strong>
-						<ul class="site-footer__info-list">
-							<li class="site-footer__info-item">
-								<a class="site-footer__info-link" href="#">место магазина</a>
+							<li class="site-footer__menu-item">
+								<a class="site-footer__menu-link" href="#">Фигурные светильники</a>
 							</li>
-							<li class="site-footer__info-item">
-								<a class="site-footer__info-link" href="tel:+74952335557"
-									>+7 (495) 233 55 57</a
-								>
+							<li class="site-footer__menu-item">
+								<a class="site-footer__menu-link" href="#">Светильники Армстронг</a>
 							</li>
-							<li class="site-footer__info-item">
-								<a class="site-footer__info-link" href="mailto:info@i-lights.ru"
-									>info@i-lights.ru</a
-								>
+							<li class="site-footer__menu-item">
+								<a class="site-footer__menu-link" href="#">Армстронг с равномерной засветкой</a>
+							</li>
+							<li class="site-footer__menu-item">
+								<a class="site-footer__menu-link" href="#">Произовдители</a>
 							</li>
 						</ul>
 					</div>
-					<span class="etad">© Technolight 2015-2021 </span>
+					<div class="site-footer__links">
+						<ul class="site-footer__links-list">
+							<li class="site-footer__links-item">
+								<a class="site-footer__links-link" href="#">Как заказать </a>
+							</li>
+							<li class="site-footer__links-item">
+								<a class="site-footer__links-link" href="#">Оплата</a>
+							</li>
+							<li class="site-footer__links-item">
+								<a class="site-footer__links-link" href="#">Доставка</a>
+							</li>
+							<li class="site-footer__links-item">
+								<a class="site-footer__links-link" href="#">Реквизиты компании</a>
+							</li>
+							<li class="site-footer__links-item">
+								<a class="site-footer__links-link" href="#">Правовая информация</a>
+							</li>
+							<li class="site-footer__links-item">
+								<a class="site-footer__links-link" href="#">FAQ</a>
+							</li>
+						</ul>
+					</div>
 				</div>
+				<div class="site-footer__info">
+					<strong class="site-footer__info-title">Контакты </strong>
+					<ul class="site-footer__info-list">
+						<li class="site-footer__info-item">
+							<a class="site-footer__info-link" href="#">место магазина</a>
+						</li>
+						<li class="site-footer__info-item">
+							<a class="site-footer__info-link" href="tel:+74952335557">+7 (495) 233 55 57</a>
+						</li>
+						<li class="site-footer__info-item">
+							<a class="site-footer__info-link" href="mailto:info@i-lights.ru">info@i-lights.ru</a>
+						</li>
+					</ul>
+				</div>
+				<span class="etad">© Technolight 2015-2021 </span>
 			</div>
-		</footer>
-		<!-- /ste-footer -->
-		<script src="./js/main.js"></script>
-	</body>
+		</div>
+	</footer>
+	<!-- /ste-footer -->
+	<script src="./js/main.js"></script>
+</body>
+
 </html>

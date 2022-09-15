@@ -1,4 +1,43 @@
 @import "visually-hidden";
 @import "container";
 @import "header";
+
+// Catalog SCSS
+
+@import "catalog-inner.scss";
+@import "catalog-filter";
+
+// Catalog SCSS
+
+// Basket SCSS
+
+@import "basket-inner";
+
+// Basket SCSS
+
+// Servisec SCSS
+
+@import "servisec-inner";
+
+// Servisec SCSS
+
+@import "company-inner";
+
+// Company SCSS
+
 @import "footer";
+
+// Company SCSS
+
+
+// Registration SCSS
+
+@import "registration";
+
+// Registration SCSS
+
+// Email SCSS
+
+@import "email";
+
+// Email SCSS

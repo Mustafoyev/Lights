@@ -1,0 +1,33 @@
+.servisec__item--active {
+  padding: 19px 12px 27px 15px;
+  background: #3d4f64;
+  border-radius: 2px 2px 0px 2px;
+  text-align: center;
+}
+
+.servisec__item {
+  padding: 19px 12px 27px 15px !important;
+  text-align: center;
+  border-right: 1px solid #ededed;
+}
+
+.servisec__itemLink--active {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.servisec__itemLink--active {
+  color: #ffffff !important;
+}
+
+.servisec__itemLink {
+  line-height: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #3d4f64;
+}

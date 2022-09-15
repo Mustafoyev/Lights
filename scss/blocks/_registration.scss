@@ -1,0 +1,100 @@
+.registration {
+  padding: 50px 0;
+}
+
+.registration__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45vh;
+}
+
+.registration__box {
+  max-width: 360px;
+  width: 100%;
+  background-color: #fff;
+  padding: 57px 17px 11px 17px;
+  border: 1px solid #efefef;
+}
+
+.registration__title {
+  text-align: center;
+  margin: 0 0 40px 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 40px;
+  color: #535353;
+}
+
+.regist__inpName {
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid #efefef;
+  outline: none;
+  width: 100%;
+
+  &::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #535353;
+  }
+}
+
+.regist__inpEmail {
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid #efefef;
+  outline: none;
+  width: 100%;
+
+  &::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #535353;
+  }
+}
+
+.regist__inpTel {
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid #efefef;
+  outline: none;
+  width: 100%;
+  margin-bottom: 12px;
+
+  &::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #535353;
+  }
+}
+
+.regist__checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.regist__checkLabel {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a6a6a6;
+}
+
+.regist__btn {
+  padding: 13px 129px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #464855;
+  width: 100%;
+  background: #ffc94f;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+}

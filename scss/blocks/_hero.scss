@@ -1,0 +1,177 @@
+.hero {
+	padding-bottom: 50px;
+}
+
+.hero__inner {
+	display: flex;
+}
+
+.hero__content {
+	width: 100%;
+	max-width: 561px;
+	padding-top: 109px;
+}
+
+.hero__title {
+	margin: 0;
+	margin-bottom: 44px;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 111%;
+	color: #535353;
+}
+
+.hero__span {
+	color: #ffc94f;
+}
+
+.hero__text {
+	margin: 0;
+	margin-bottom: 40px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 157%;
+	color: #8c8c8c;
+}
+
+.hero__link {
+	margin-bottom: 24px;
+	display: block;
+	width: 100%;
+	max-width: 197px;
+	padding: 13px;
+	background-color: #ffc94f;
+	border-radius: 2px;
+	text-decoration: none;
+	text-align: center;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	color: #3d4f64;
+}
+
+.hero__img-wrapper {
+	display: flex;
+}
+
+.img-wraa {
+	margin-top: auto;
+	z-index: -1;
+}
+
+.img-spa {
+	position: relative;
+	display: block;
+	margin-bottom: 10px;
+	width: 32px;
+	height: 27px;
+	background-color: #3d4f64;
+	box-shadow: 0px 4px 10px rgba(243, 168, 0, 0.25);
+	border-radius: 3px;
+}
+
+.img-span {
+	position: relative;
+	display: block;
+	width: 32px;
+	height: 27px;
+	background-color: #ffffff;
+	border: 1px solid #ededed;
+	border-radius: 3px;
+}
+
+.arrow {
+	position: absolute;
+	top: 8px;
+	right: 13px;
+	bottom: 8px;
+	left: 13px;
+}
+
+.hero__img {
+	position: relative;
+	right: calc(50% - 363px);
+	width: 969px;
+	height: 418px;
+}
+
+.hero-mobil {
+	display: none;
+}
+
+.lines {
+	z-index: -1;
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin-left: 18px;
+	padding-bottom: 20px;
+}
+
+.line-s {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: block;
+	margin-top: auto;
+	width: 228px;
+	height: 3px;
+	background-color: #f3a800;
+	border-radius: 3px;
+}
+
+.linee {
+	z-index: -2;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin-top: auto;
+	display: block;
+	width: 445px;
+	height: 1px;
+	background-color: #efefef;
+}
+
+@include max-width(1318px) {
+	.img-wraa {
+		margin-right: 20px;
+	}
+
+	.hero__img {
+		z-index: -1;
+		display: block;
+		right: 0;
+		width: 100%;
+	}
+
+	.line {
+		width: 100%;
+	}
+}
+
+@include max-width(1000px) {
+	.hero__inner {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.hero__img-wrapper {
+		display: none;
+	}
+
+	.hero-mobil {
+		display: block;
+	}
+}
+
+@include max-width(400px) {
+	.hero__title {
+		font-size: 24px;
+		line-height: 133%;
+	}
+
+	.hero__text {
+		font-size: 14px;
+		line-height: 157%;
+	}
+}

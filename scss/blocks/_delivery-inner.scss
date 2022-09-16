@@ -1,0 +1,148 @@
+.body {
+  background: #fcfcfc;
+}
+
+.country {
+  display: flex;
+  align-items: center;
+  gap: 85px;
+  margin-bottom: 45px;
+}
+
+.russia {
+  max-width: 695px;
+  width: 100%;
+}
+
+.russia__title {
+  margin: 0 0 8px 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 40px;
+  color: #535353;
+}
+
+.russia__text {
+  margin: 0;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: #535353;
+}
+
+.region {
+  max-width: 502px;
+  width: 100%;
+}
+
+.region__title {
+  margin: 0 0 4px 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 40px;
+  color: #535353;
+}
+
+.region__text {
+  margin: 0;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: #535353;
+}
+
+.delivery__countryMedia {
+  display: none;
+}
+
+.delivery__box {
+  max-width: 502px;
+  width: 100%;
+  margin-left: auto;
+  padding: 12px 20px !important;
+}
+
+.delivery__btn {
+  display: block;
+  margin-left: auto;
+  width: auto !important;
+  padding: 13px 66px !important;
+}
+
+.delivery__orders {
+    display: flex;
+    align-items: center;
+}
+
+.orders__list {
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.orders__item {
+  max-width: 225px;
+  width: 100%;
+}
+
+.orders__span {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 12px 19px 12px 21px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #535353;
+  background: #ffffff;
+  border: 1px solid #ffc94f;
+  border-radius: 50%;
+  box-shadow: 0px 8px 10px rgba(255, 201, 79, 0.25);
+}
+
+.orders__tel {
+    color: black;
+}
+
+.orders__text {
+  margin: 0;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+  color: #535353;
+
+  & strong {
+    font-weight: 700;
+  }
+}
+
+
+@media only screen and (max-width: 565px) {
+  .delivery__country {
+    flex-direction: column;
+  }
+
+  .delivery__btn {
+    width: 100% !important;
+  }
+
+  .delivery__orders {
+    flex-direction: column;
+  }
+
+  .orders__list {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+  .orders__item {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+
+  .orders__span {
+    margin-right: 18px;
+  }
+}

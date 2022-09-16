@@ -1,486 +1,564 @@
 <!DOCTYPE html>
 <html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<title>О компании</title>
+	</head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <title>О компании</title>
-</head>
+	<body>
+		<!-- site-header -->
 
-<body>
-    <!-- site-header -->
+		<header class="site-header">
+			<div class="container">
+				<div class="site-header__inner">
+					<a class="logo" href="./index.html">
+						<img
+							class="logo__link"
+							src="./images/logo.svg"
+							alt="Site logotype"
+							width="75"
+							height="58"
+						/>
+					</a>
 
-    <header class="site-header">
-        <div class="container">
-            <div class="site-header__inner">
-                <a class="logo" href="./index.html">
-                    <img class="logo__link" src="./images/logo.svg" alt="Site logotype" width="75" height="58" />
-                </a>
+					<nav class="navbar">
+						<ul class="navbar__list">
+							<li class="navbar__item">
+								<a class="navbar__link" href="./company.html">О компании</a>
+							</li>
+							<li class="navbar__item">
+								<a class="navbar__link" href="./services.html">Услуги</a>
+							</li>
+							<li class="navbar__item">
+								<a class="navbar__link" href="#">Проекты </a>
+							</li>
+							<li class="navbar__item">
+								<a class="navbar__link" href="./delivery.html"
+									>Доставка и оплата
+								</a>
+							</li>
+							<li class="navbar__item">
+								<a class="navbar__link" href="#">Контакты </a>
+							</li>
+							<li class="navbar__item">
+								<a
+									class="navbar__link navbar__link--active"
+									href="./basket.html"
+									>Подборка</a
+								>
+							</li>
+						</ul>
+						<div class="site-header__links">
+							<a
+								class="navbar__link navbar__link--mail"
+								href="mailto:info@i-lights.ru"
+								>info@i-lights.ru
+							</a>
+							<a class="navbar__link navbar__link--tel" href="tel:+74952335557"
+								>+7 (495) 233 55 57</a
+							>
+						</div>
+					</nav>
+					<button class="burger">
+						<span class="line"></span>
+						<span class="line"></span>
+						<span class="line"></span>
+					</button>
+				</div>
+			</div>
+		</header>
 
-                <nav class="navbar">
-                    <ul class="navbar__list">
-                        <li class="navbar__item">
-                            <a class="navbar__link" href="./company.html">О компании</a>
-                        </li>
-                        <li class="navbar__item">
-                            <a class="navbar__link" href="./services.html">Услуги</a>
-                        </li>
-                        <li class="navbar__item">
-                            <a class="navbar__link" href="#">Проекты </a>
-                        </li>
-                        <li class="navbar__item">
-                            <a class="navbar__link" href="./delivery.html">Доставка и оплата
-                            </a>
-                        </li>
-                        <li class="navbar__item">
-                            <a class="navbar__link" href="#">Контакты </a>
-                        </li>
-                        <li class="navbar__item">
-                            <a class="navbar__link navbar__link--active" href="./basket.html">Подборка</a>
-                        </li>
-                    </ul>
-                    <div class="site-header__links">
-                        <a class="navbar__link navbar__link--mail" href="mailto:info@i-lights.ru">info@i-lights.ru
-                        </a>
-                        <a class="navbar__link navbar__link--tel" href="tel:+74952335557">+7 (495) 233 55 57</a>
-                    </div>
-                </nav>
-                <button class="burger">
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                </button>
-            </div>
-        </div>
-    </header>
+		<!-- /site-header -->
 
-    <!-- /site-header -->
+		<!-- site-main -->
+		<main class="catalog">
+			<section class="catalog__menu">
+				<div class="container">
+					<div class="catalog__menu__inner">
+						<h2 class="catalog__menu__title">Каталог</h2>
+						<ul class="catalog__menu__list">
+							<li class="catalog__menu__item--active">
+								<a href="#" class="catalog__menu__link--active"
+									>Трековые светильники</a
+								>
+							</li>
+							<li class="catalog__menu__item">
+								<a href="#" class="catalog__menu__link"
+									>Встраиваемые светильники</a
+								>
+							</li>
+							<li class="catalog__menu__item">
+								<a href="#" class="catalog__menu__link"
+									>Профильные светильники</a
+								>
+							</li>
+							<li class="catalog__menu__item">
+								<a href="#" class="catalog__menu__link">Фигурные светильники</a>
+							</li>
+							<li class="catalog__menu__item">
+								<a href="#" class="catalog__menu__link"
+									>Светильники Армстронг</a
+								>
+							</li>
+							<li class="catalog__menu__item">
+								<a href="#" class="catalog__menu__link"
+									>Светильники Армстронг с равномерной засветкой</a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section class="catalog__filter">
+				<div class="container">
+					<div class="catalog__filter__inner">
+						<div class="catalog__filters filters">
+							<div class="filters__info">
+								<h3 class="filters__title">Фильтр</h3>
+								<img
+									class="filters__img"
+									src="./images/filter.svg"
+									alt="Filter"
+									width="13"
+									height="13"
+								/>
+							</div>
+							<div class="filters__statis statis">
+								<h4 class="statis__title">Мощность</h4>
+								<div class="statis__num">
+									<span class="statis__numbers">44</span>
+									<span class="statis__numbers">432</span>
+								</div>
+								<span class="statis__border">
+									<span class="statis__circle"></span>
+								</span>
+							</div>
+							<div class="filters__statis statis">
+								<h4 class="statis__title">Световой поток LED</h4>
+								<div class="statis__num">
+									<span class="statis__numbers">6110</span>
+									<span class="statis__numbers">53820</span>
+								</div>
+								<span class="statis__border">
+									<span class="statis__circle left"></span>
+								</span>
+							</div>
+							<div class="filters__statis statis">
+								<h4 class="statis__title">Угол рассеивания</h4>
+								<div class="statis__num">
+									<span class="statis__numbers">15</span>
+									<span class="statis__numbers">160</span>
+								</div>
+								<span class="statis__border">
+									<span class="statis__circle left"></span>
+								</span>
+							</div>
+							<div class="filters__statis statis--bottom">
+								<h4 class="statis__title">Минимальная цена</h4>
+								<div class="statis__num">
+									<span class="statis__numbers">2500</span>
+									<span class="statis__numbers">10575</span>
+								</div>
+								<span class="statis__border">
+									<span class="statis__circle left"></span>
+								</span>
+							</div>
+							<div class="filters__btns">
+								<button type="button" class="filters__sbros">Сбросить</button>
+								<button type="button" class="filters__primenit">
+									Применить
+								</button>
+							</div>
+						</div>
+						<div class="catalog__news news">
+							<h3 class="news__title">Новинки</h3>
+							<ul class="news__list">
+								<li class="news__item">
+									<div class="news__infos">
+										<span class="news__spanDay">Вт</span>
+										<img
+											class="news__img"
+											src="./images/dizayn_svetilnik.png"
+											alt="Lamp"
+											width="128"
+											height="181"
+										/>
+										<h4 class="news__titles">
+											Дизайнерский светильник изготавливаемый по проекту
+										</h4>
+										<ul class="news__textList">
+											<li class="news__textItem">Длинна до 3 метров.</li>
+											<li class="news__textItem">
+												Углы поворота между секторами по проекту.
+											</li>
+											<li class="news__textItem">
+												Мощность рассчитывается индивидуально.
+											</li>
+										</ul>
+										<span class="news__cost">41 500 $</span>
+									</div>
+									<div class="news__btn">
+										<a
+											href="./card-product.html"
+											class="news__btn1 news__btn1--active"
+											>Подробнее</a
+										>
+										<button class="news__btn2">+</button>
+									</div>
+								</li>
+								<li class="news__item">
+									<div class="news__infos">
+										<span class="news__spanDay">Вт</span>
+										<img
+											class="news__img"
+											src="./images/dizayn_svetilnik.png"
+											alt="Lamp"
+											width="128"
+											height="181"
+										/>
+										<h4 class="news__titles">
+											Дизайнерский светильник изготавливаемый по проекту
+										</h4>
+										<ul class="news__textList">
+											<li class="news__textItem">Длинна до 3 метров.</li>
+											<li class="news__textItem">
+												Углы поворота между секторами по проекту.
+											</li>
+											<li class="news__textItem">
+												Мощность рассчитывается индивидуально.
+											</li>
+										</ul>
+										<span class="news__cost">41 500 $</span>
+									</div>
+									<div class="news__btn">
+										<button class="news__btn1 news__btn1--active">
+											Подробнее
+										</button>
+										<button class="news__btn2">+</button>
+									</div>
+								</li>
+								<li class="news__item news__item--delete">
+									<div class="news__infos">
+										<span class="news__spanDay">Вт</span>
+										<img
+											class="news__img"
+											src="./images/dizayn_svetilnik.png"
+											alt="Lamp"
+											width="128"
+											height="181"
+										/>
+										<h4 class="news__titles">
+											Дизайнерский светильник изготавливаемый по проекту
+										</h4>
+										<ul class="news__textList">
+											<li class="news__textItem">Длинна до 3 метров.</li>
+											<li class="news__textItem">
+												Углы поворота между секторами по проекту.
+											</li>
+											<li class="news__textItem">
+												Мощность рассчитывается индивидуально.
+											</li>
+										</ul>
+										<span class="news__cost">41 500 $</span>
+									</div>
+									<div class="news__btn">
+										<button class="news__btn1">Подробнее</button>
+										<button class="news__btn2">+</button>
+									</div>
+								</li>
+							</ul>
+							<h3 class="news__allTitle">Весь каталог</h3>
+							<ul class="news__lists">
+								<li class="news__item">
+									<div class="news__infos">
+										<span class="news__spanDay">Вт</span>
+										<img
+											class="news__img"
+											src="./images/dizayn_svetilnik.png"
+											alt="Lamp"
+											width="128"
+											height="181"
+										/>
+										<h4 class="news__titles">
+											Дизайнерский светильник изготавливаемый по проекту
+										</h4>
+										<ul class="news__textList">
+											<li class="news__textItem">Длинна до 3 метров.</li>
+											<li class="news__textItem">
+												Углы поворота между секторами по проекту.
+											</li>
+											<li class="news__textItem">
+												Мощность рассчитывается индивидуально.
+											</li>
+										</ul>
+										<span class="news__cost">41 500 $</span>
+									</div>
+									<div class="news__btn">
+										<button class="news__btn1">Подробнее</button>
+										<button class="news__btn2">+</button>
+									</div>
+								</li>
+								<li class="news__item">
+									<div class="news__infos">
+										<span class="news__spanDay">Вт</span>
+										<img
+											class="news__img"
+											src="./images/dizayn_svetilnik.png"
+											alt="Lamp"
+											width="128"
+											height="181"
+										/>
+										<h4 class="news__titles">
+											Дизайнерский светильник изготавливаемый по проекту
+										</h4>
+										<ul class="news__textList">
+											<li class="news__textItem">Длинна до 3 метров.</li>
+											<li class="news__textItem">
+												Углы поворота между секторами по проекту.
+											</li>
+											<li class="news__textItem">
+												Мощность рассчитывается индивидуально.
+											</li>
+										</ul>
+										<span class="news__cost">41 500 $</span>
+									</div>
+									<div class="news__btn">
+										<button class="news__btn1">Подробнее</button>
+										<button class="news__btn2">+</button>
+									</div>
+								</li>
+								<li class="news__item">
+									<div class="news__infos">
+										<span class="news__spanDay">Вт</span>
+										<img
+											class="news__img"
+											src="./images/dizayn_svetilnik.png"
+											alt="Lamp"
+											width="128"
+											height="181"
+										/>
+										<h4 class="news__titles">
+											Дизайнерский светильник изготавливаемый по проекту
+										</h4>
+										<ul class="news__textList">
+											<li class="news__textItem">Длинна до 3 метров.</li>
+											<li class="news__textItem">
+												Углы поворота между секторами по проекту.
+											</li>
+											<li class="news__textItem">
+												Мощность рассчитывается индивидуально.
+											</li>
+										</ul>
+										<span class="news__cost">41 500 $</span>
+									</div>
+									<div class="news__btn">
+										<button class="news__btn1">Подробнее</button>
+										<button class="news__btn2">+</button>
+									</div>
+								</li>
+								<li class="news__item news__item">
+									<div class="news__infos">
+										<span class="news__spanDay">Вт</span>
+										<img
+											class="news__img"
+											src="./images/dizayn_svetilnik.png"
+											alt="Lamp"
+											width="128"
+											height="181"
+										/>
+										<h4 class="news__titles">
+											Дизайнерский светильник изготавливаемый по проекту
+										</h4>
+										<ul class="news__textList">
+											<li class="news__textItem">Длинна до 3 метров.</li>
+											<li class="news__textItem">
+												Углы поворота между секторами по проекту.
+											</li>
+											<li class="news__textItem">
+												Мощность рассчитывается индивидуально.
+											</li>
+										</ul>
+										<span class="news__cost">41 500 $</span>
+									</div>
+									<div class="news__btn">
+										<button class="news__btn1">Подробнее</button>
+										<button class="news__btn2">+</button>
+									</div>
+								</li>
+								<li class="news__item news__item--delete">
+									<div class="news__infos">
+										<span class="news__spanDay">Вт</span>
+										<img
+											class="news__img"
+											src="./images/dizayn_svetilnik.png"
+											alt="Lamp"
+											width="128"
+											height="181"
+										/>
+										<h4 class="news__titles">
+											Дизайнерский светильник изготавливаемый по проекту
+										</h4>
+										<ul class="news__textList">
+											<li class="news__textItem">Длинна до 3 метров.</li>
+											<li class="news__textItem">
+												Углы поворота между секторами по проекту.
+											</li>
+											<li class="news__textItem">
+												Мощность рассчитывается индивидуально.
+											</li>
+										</ul>
+										<span class="news__cost">41 500 $</span>
+									</div>
+									<div class="news__btn">
+										<button class="news__btn1">Подробнее</button>
+										<button class="news__btn2">+</button>
+									</div>
+								</li>
+								<li class="news__item news__item--delete">
+									<div class="news__infos">
+										<span class="news__spanDay">Вт</span>
+										<img
+											class="news__img"
+											src="./images/dizayn_svetilnik.png"
+											alt="Lamp"
+											width="128"
+											height="181"
+										/>
+										<h4 class="news__titles">
+											Дизайнерский светильник изготавливаемый по проекту
+										</h4>
+										<ul class="news__textList">
+											<li class="news__textItem">Длинна до 3 метров.</li>
+											<li class="news__textItem">
+												Углы поворота между секторами по проекту.
+											</li>
+											<li class="news__textItem">
+												Мощность рассчитывается индивидуально.
+											</li>
+										</ul>
+										<span class="news__cost">41 500 $</span>
+									</div>
+									<div class="news__btn">
+										<button class="news__btn1">Подробнее</button>
+										<button class="news__btn2">+</button>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- /site-main -->
 
-    <!-- site-main -->
-    <main class="catalog">
-        <section class="catalog__menu">
-            <div class="container">
-                <div class="catalog__menu__inner">
-                    <h2 class="catalog__menu__title">Каталог</h2>
-                    <ul class="catalog__menu__list">
-                        <li class="catalog__menu__item--active">
-                            <a href="#" class="catalog__menu__link--active">Трековые светильники</a>
-                        </li>
-                        <li class="catalog__menu__item">
-                            <a href="#" class="catalog__menu__link">Встраиваемые светильники</a>
-                        </li>
-                        <li class="catalog__menu__item">
-                            <a href="#" class="catalog__menu__link">Профильные светильники</a>
-                        </li>
-                        <li class="catalog__menu__item">
-                            <a href="#" class="catalog__menu__link">Фигурные светильники</a>
-                        </li>
-                        <li class="catalog__menu__item">
-                            <a href="#" class="catalog__menu__link">Светильники Армстронг</a>
-                        </li>
-                        <li class="catalog__menu__item">
-                            <a href="#" class="catalog__menu__link">Светильники Армстронг с равномерной засветкой</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section class="catalog__filter">
-            <div class="container">
-                <div class="catalog__filter__inner">
-                    <div class="catalog__filters filters">
-                        <div class="filters__info">
-                            <h3 class="filters__title">
-                                Фильтр
-                            </h3>
-                            <img class="filters__img" src="./images/filter.svg" alt="Filter" width="13" height="13">
-                        </div>
-                        <div class="filters__statis statis">
-                            <h4 class="statis__title">
-                                Мощность
-                            </h4>
-                            <div class="statis__num">
-                                <span class="statis__numbers">44</span>
-                                <span class="statis__numbers">432</span>
-                            </div>
-                            <span class="statis__border">
-                                <span class="statis__circle"></span>
-                            </span>
-                        </div>
-                        <div class="filters__statis statis">
-                            <h4 class="statis__title">
-                                Световой поток LED
-                            </h4>
-                            <div class="statis__num">
-                                <span class="statis__numbers">6110</span>
-                                <span class="statis__numbers">53820</span>
-                            </div>
-                            <span class="statis__border">
-                                <span class="statis__circle left"></span>
-                            </span>
-                        </div>
-                        <div class="filters__statis statis">
-                            <h4 class="statis__title">
-                                Угол рассеивания
-                            </h4>
-                            <div class="statis__num">
-                                <span class="statis__numbers">15</span>
-                                <span class="statis__numbers">160</span>
-                            </div>
-                            <span class="statis__border">
-                                <span class="statis__circle left"></span>
-                            </span>
-                        </div>
-                        <div class="filters__statis statis--bottom">
-                            <h4 class="statis__title">
-                                Минимальная цена
-                            </h4>
-                            <div class="statis__num">
-                                <span class="statis__numbers">2500</span>
-                                <span class="statis__numbers">10575</span>
-                            </div>
-                            <span class="statis__border">
-                                <span class="statis__circle left"></span>
-                            </span>
-                        </div>
-                        <div class="filters__btns">
-                            <button type="button" class="filters__sbros">Сбросить</button>
-                            <button type="button" class="filters__primenit">Применить</button>
-
-                        </div>
-                    </div>
-                    <div class="catalog__news news">
-                        <h3 class="news__title">Новинки</h3>
-                        <ul class="news__list">
-                            <li class="news__item">
-                                <div class="news__infos">
-                                    <span class="news__spanDay">Вт</span>
-                                    <img class="news__img" src="./images/dizayn_svetilnik.png" alt="Lamp" width="128"
-                                        height="181">
-                                    <h4 class="news__titles">Дизайнерский светильник изготавливаемый по проекту</h4>
-                                    <ul class="news__textList">
-                                        <li class="news__textItem">
-                                            Длинна до 3 метров.
-                                        </li>
-                                        <li class="news__textItem">
-                                            Углы поворота между секторами по проекту.
-                                        </li>
-                                        <li class="news__textItem">
-                                            Мощность рассчитывается индивидуально.
-                                        </li>
-                                    </ul>
-                                    <span class="news__cost">41 500 $</span>
-                                </div>
-                                <div class="news__btn">
-                                    <button class="news__btn1">Подробнее</button>
-                                    <button class="news__btn2">
-                                        +
-                                    </button>
-                                </div>
-                            </li>
-                            <li class="news__item">
-                                <div class="news__infos">
-                                    <span class="news__spanDay">Вт</span>
-                                    <img class="news__img" src="./images/dizayn_svetilnik.png" alt="Lamp" width="128"
-                                        height="181">
-                                    <h4 class="news__titles">Дизайнерский светильник изготавливаемый по проекту</h4>
-                                    <ul class="news__textList">
-                                        <li class="news__textItem">
-                                            Длинна до 3 метров.
-                                        </li>
-                                        <li class="news__textItem">
-                                            Углы поворота между секторами по проекту.
-                                        </li>
-                                        <li class="news__textItem">
-                                            Мощность рассчитывается индивидуально.
-                                        </li>
-                                    </ul>
-                                    <span class="news__cost">41 500 $</span>
-                                </div>
-                                <div class="news__btn">
-                                    <button class="news__btn1">Подробнее</button>
-                                    <button class="news__btn2">
-                                        +
-                                    </button>
-                                </div>
-                            </li>
-                            <li class="news__item news__item--delete">
-                                <div class="news__infos">
-                                    <span class="news__spanDay">Вт</span>
-                                    <img class="news__img" src="./images/dizayn_svetilnik.png" alt="Lamp" width="128"
-                                        height="181">
-                                    <h4 class="news__titles">Дизайнерский светильник изготавливаемый по проекту</h4>
-                                    <ul class="news__textList">
-                                        <li class="news__textItem">
-                                            Длинна до 3 метров.
-                                        </li>
-                                        <li class="news__textItem">
-                                            Углы поворота между секторами по проекту.
-                                        </li>
-                                        <li class="news__textItem">
-                                            Мощность рассчитывается индивидуально.
-                                        </li>
-                                    </ul>
-                                    <span class="news__cost">41 500 $</span>
-                                </div>
-                                <div class="news__btn">
-                                    <button class="news__btn1">Подробнее</button>
-                                    <button class="news__btn2">
-                                        +
-                                    </button>
-                                </div>
-                            </li>
-                        </ul>
-                        <h3 class="news__allTitle">Весь каталог</h3>
-                        <ul class="news__lists">
-                            <li class="news__item">
-                                <div class="news__infos">
-                                    <span class="news__spanDay">Вт</span>
-                                    <img class="news__img" src="./images/dizayn_svetilnik.png" alt="Lamp" width="128"
-                                        height="181">
-                                    <h4 class="news__titles">Дизайнерский светильник изготавливаемый по проекту</h4>
-                                    <ul class="news__textList">
-                                        <li class="news__textItem">
-                                            Длинна до 3 метров.
-                                        </li>
-                                        <li class="news__textItem">
-                                            Углы поворота между секторами по проекту.
-                                        </li>
-                                        <li class="news__textItem">
-                                            Мощность рассчитывается индивидуально.
-                                        </li>
-                                    </ul>
-                                    <span class="news__cost">41 500 $</span>
-                                </div>
-                                <div class="news__btn">
-                                    <button class="news__btn1">Подробнее</button>
-                                    <button class="news__btn2">
-                                        +
-                                    </button>
-                                </div>
-                            </li>
-                            <li class="news__item">
-                                <div class="news__infos">
-                                    <span class="news__spanDay">Вт</span>
-                                    <img class="news__img" src="./images/dizayn_svetilnik.png" alt="Lamp" width="128"
-                                        height="181">
-                                    <h4 class="news__titles">Дизайнерский светильник изготавливаемый по проекту</h4>
-                                    <ul class="news__textList">
-                                        <li class="news__textItem">
-                                            Длинна до 3 метров.
-                                        </li>
-                                        <li class="news__textItem">
-                                            Углы поворота между секторами по проекту.
-                                        </li>
-                                        <li class="news__textItem">
-                                            Мощность рассчитывается индивидуально.
-                                        </li>
-                                    </ul>
-                                    <span class="news__cost">41 500 $</span>
-                                </div>
-                                <div class="news__btn">
-                                    <button class="news__btn1">Подробнее</button>
-                                    <button class="news__btn2">
-                                        +
-                                    </button>
-                                </div>
-                            </li>
-                            <li class="news__item">
-                                <div class="news__infos">
-                                    <span class="news__spanDay">Вт</span>
-                                    <img class="news__img" src="./images/dizayn_svetilnik.png" alt="Lamp" width="128"
-                                        height="181">
-                                    <h4 class="news__titles">Дизайнерский светильник изготавливаемый по проекту</h4>
-                                    <ul class="news__textList">
-                                        <li class="news__textItem">
-                                            Длинна до 3 метров.
-                                        </li>
-                                        <li class="news__textItem">
-                                            Углы поворота между секторами по проекту.
-                                        </li>
-                                        <li class="news__textItem">
-                                            Мощность рассчитывается индивидуально.
-                                        </li>
-                                    </ul>
-                                    <span class="news__cost">41 500 $</span>
-                                </div>
-                                <div class="news__btn">
-                                    <button class="news__btn1">Подробнее</button>
-                                    <button class="news__btn2">
-                                        +
-                                    </button>
-                                </div>
-                            </li>
-                            <li class="news__item news__item">
-                                <div class="news__infos">
-                                    <span class="news__spanDay">Вт</span>
-                                    <img class="news__img" src="./images/dizayn_svetilnik.png" alt="Lamp" width="128"
-                                        height="181">
-                                    <h4 class="news__titles">Дизайнерский светильник изготавливаемый по проекту</h4>
-                                    <ul class="news__textList">
-                                        <li class="news__textItem">
-                                            Длинна до 3 метров.
-                                        </li>
-                                        <li class="news__textItem">
-                                            Углы поворота между секторами по проекту.
-                                        </li>
-                                        <li class="news__textItem">
-                                            Мощность рассчитывается индивидуально.
-                                        </li>
-                                    </ul>
-                                    <span class="news__cost">41 500 $</span>
-                                </div>
-                                <div class="news__btn">
-                                    <button class="news__btn1">Подробнее</button>
-                                    <button class="news__btn2">
-                                        +
-                                    </button>
-                                </div>
-                            </li>
-                            <li class="news__item news__item--delete">
-                                <div class="news__infos">
-                                    <span class="news__spanDay">Вт</span>
-                                    <img class="news__img" src="./images/dizayn_svetilnik.png" alt="Lamp" width="128"
-                                        height="181">
-                                    <h4 class="news__titles">Дизайнерский светильник изготавливаемый по проекту</h4>
-                                    <ul class="news__textList">
-                                        <li class="news__textItem">
-                                            Длинна до 3 метров.
-                                        </li>
-                                        <li class="news__textItem">
-                                            Углы поворота между секторами по проекту.
-                                        </li>
-                                        <li class="news__textItem">
-                                            Мощность рассчитывается индивидуально.
-                                        </li>
-                                    </ul>
-                                    <span class="news__cost">41 500 $</span>
-                                </div>
-                                <div class="news__btn">
-                                    <button class="news__btn1">Подробнее</button>
-                                    <button class="news__btn2">
-                                        +
-                                    </button>
-                                </div>
-                            </li>
-                            <li class="news__item news__item--delete">
-                                <div class="news__infos">
-                                    <span class="news__spanDay">Вт</span>
-                                    <img class="news__img" src="./images/dizayn_svetilnik.png" alt="Lamp" width="128"
-                                        height="181">
-                                    <h4 class="news__titles">Дизайнерский светильник изготавливаемый по проекту</h4>
-                                    <ul class="news__textList">
-                                        <li class="news__textItem">
-                                            Длинна до 3 метров.
-                                        </li>
-                                        <li class="news__textItem">
-                                            Углы поворота между секторами по проекту.
-                                        </li>
-                                        <li class="news__textItem">
-                                            Мощность рассчитывается индивидуально.
-                                        </li>
-                                    </ul>
-                                    <span class="news__cost">41 500 $</span>
-                                </div>
-                                <div class="news__btn">
-                                    <button class="news__btn1">Подробнее</button>
-                                    <button class="news__btn2">
-                                        +
-                                    </button>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <!-- /site-main -->
-
-    <!-- ste-footer -->
-    <footer class="site-footer">
-        <div class="container">
-            <div class="site-footer__inner">
-                <div class="site-footer__logo">
-                    <a class="logo-footer" href="./index.html">
-                        <img class="logo-footer__img" src="./images/logo-footer.svg" alt="Logotype" width="66"
-                            height="42" />
-                    </a>
-                    <span class="date date--active">© Technolight 2015-2021 </span>
-                </div>
-                <div class="wrapper">
-                    <div class="site-footer__menu">
-                        <strong class="site-footer__menu-title"> Каталог товаров </strong>
-                        <ul class="site-footer__menu-list">
-                            <li class="site-footer__menu-item">
-                                <a class="site-footer__menu-link" href="#">Трековые светильники
-                                </a>
-                            </li>
-                            <li class="site-footer__menu-item">
-                                <a class="site-footer__menu-link" href="#">Встраиваемые светильники</a>
-                            </li>
-                            <li class="site-footer__menu-item">
-                                <a class="site-footer__menu-link" href="#">Профильные светильники</a>
-                            </li>
-                            <li class="site-footer__menu-item">
-                                <a class="site-footer__menu-link" href="#">Фигурные светильники</a>
-                            </li>
-                            <li class="site-footer__menu-item">
-                                <a class="site-footer__menu-link" href="#">Светильники Армстронг</a>
-                            </li>
-                            <li class="site-footer__menu-item">
-                                <a class="site-footer__menu-link" href="#">Армстронг с равномерной засветкой</a>
-                            </li>
-                            <li class="site-footer__menu-item">
-                                <a class="site-footer__menu-link" href="#">Произовдители</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="site-footer__links">
-                        <ul class="site-footer__links-list">
-                            <li class="site-footer__links-item">
-                                <a class="site-footer__links-link" href="#">Как заказать </a>
-                            </li>
-                            <li class="site-footer__links-item">
-                                <a class="site-footer__links-link" href="#">Оплата</a>
-                            </li>
-                            <li class="site-footer__links-item">
-                                <a class="site-footer__links-link" href="#">Доставка</a>
-                            </li>
-                            <li class="site-footer__links-item">
-                                <a class="site-footer__links-link" href="#">Реквизиты компании</a>
-                            </li>
-                            <li class="site-footer__links-item">
-                                <a class="site-footer__links-link" href="#">Правовая информация</a>
-                            </li>
-                            <li class="site-footer__links-item">
-                                <a class="site-footer__links-link" href="#">FAQ</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="site-footer__info">
-                    <strong class="site-footer__info-title">Контакты </strong>
-                    <ul class="site-footer__info-list">
-                        <li class="site-footer__info-item">
-                            <a class="site-footer__info-link" href="#">место магазина</a>
-                        </li>
-                        <li class="site-footer__info-item">
-                            <a class="site-footer__info-link" href="tel:+74952335557">+7 (495) 233 55 57</a>
-                        </li>
-                        <li class="site-footer__info-item">
-                            <a class="site-footer__info-link" href="mailto:info@i-lights.ru">info@i-lights.ru</a>
-                        </li>
-                    </ul>
-                </div>
-                <span class="etad">© Technolight 2015-2021 </span>
-            </div>
-        </div>
-    </footer>
-    <!-- /ste-footer -->
-    <script src="./js/main.js"></script>
-</body>
-
+		<!-- ste-footer -->
+		<footer class="site-footer">
+			<div class="container">
+				<div class="site-footer__inner">
+					<div class="site-footer__logo">
+						<a class="logo-footer" href="./index.html">
+							<img
+								class="logo-footer__img"
+								src="./images/logo-footer.svg"
+								alt="Logotype"
+								width="66"
+								height="42"
+							/>
+						</a>
+						<span class="date date--active">© Technolight 2015-2021 </span>
+					</div>
+					<div class="wrapper">
+						<div class="site-footer__menu">
+							<strong class="site-footer__menu-title"> Каталог товаров </strong>
+							<ul class="site-footer__menu-list">
+								<li class="site-footer__menu-item">
+									<a class="site-footer__menu-link" href="#"
+										>Трековые светильники
+									</a>
+								</li>
+								<li class="site-footer__menu-item">
+									<a class="site-footer__menu-link" href="#"
+										>Встраиваемые светильники</a
+									>
+								</li>
+								<li class="site-footer__menu-item">
+									<a class="site-footer__menu-link" href="#"
+										>Профильные светильники</a
+									>
+								</li>
+								<li class="site-footer__menu-item">
+									<a class="site-footer__menu-link" href="#"
+										>Фигурные светильники</a
+									>
+								</li>
+								<li class="site-footer__menu-item">
+									<a class="site-footer__menu-link" href="#"
+										>Светильники Армстронг</a
+									>
+								</li>
+								<li class="site-footer__menu-item">
+									<a class="site-footer__menu-link" href="#"
+										>Армстронг с равномерной засветкой</a
+									>
+								</li>
+								<li class="site-footer__menu-item">
+									<a class="site-footer__menu-link" href="#">Произовдители</a>
+								</li>
+							</ul>
+						</div>
+						<div class="site-footer__links">
+							<ul class="site-footer__links-list">
+								<li class="site-footer__links-item">
+									<a class="site-footer__links-link" href="#">Как заказать </a>
+								</li>
+								<li class="site-footer__links-item">
+									<a class="site-footer__links-link" href="#">Оплата</a>
+								</li>
+								<li class="site-footer__links-item">
+									<a class="site-footer__links-link" href="#">Доставка</a>
+								</li>
+								<li class="site-footer__links-item">
+									<a class="site-footer__links-link" href="#"
+										>Реквизиты компании</a
+									>
+								</li>
+								<li class="site-footer__links-item">
+									<a class="site-footer__links-link" href="#"
+										>Правовая информация</a
+									>
+								</li>
+								<li class="site-footer__links-item">
+									<a class="site-footer__links-link" href="#">FAQ</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="site-footer__info">
+						<strong class="site-footer__info-title">Контакты </strong>
+						<ul class="site-footer__info-list">
+							<li class="site-footer__info-item">
+								<a class="site-footer__info-link" href="#">место магазина</a>
+							</li>
+							<li class="site-footer__info-item">
+								<a class="site-footer__info-link" href="tel:+74952335557"
+									>+7 (495) 233 55 57</a
+								>
+							</li>
+							<li class="site-footer__info-item">
+								<a class="site-footer__info-link" href="mailto:info@i-lights.ru"
+									>info@i-lights.ru</a
+								>
+							</li>
+						</ul>
+					</div>
+					<span class="etad">© Technolight 2015-2021 </span>
+				</div>
+			</div>
+		</footer>
+		<!-- /ste-footer -->
+		<script src="./js/main.js"></script>
+	</body>
 </html>

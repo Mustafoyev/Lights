@@ -1,293 +1,295 @@
 .basket__table {
-  margin-bottom: 6px;
+	margin-bottom: 6px;
 }
 
 .basket__head {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .basket__headTitle {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 40px;
-  color: #000000;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 40px;
+	color: #000000;
 
-  &:first-child {
-    margin-right: 113px;
-  }
-  &:nth-child(2) {
-    margin-right: 430px;
-  }
-  &:nth-child(3) {
-    margin-right: 231px;
-  }
-  &:nth-child(4) {
-    margin-right: 151px;
-  }
+	&:first-child {
+		margin-right: 113px;
+	}
+	&:nth-child(2) {
+		margin-right: 430px;
+	}
+	&:nth-child(3) {
+		margin-right: 231px;
+	}
+	&:nth-child(4) {
+		margin-right: 151px;
+	}
 }
 
 .basket__list {
-  margin: 0 0 70px 0;
-  padding: 0;
-  list-style: none;
-  gap: 50px;
+	margin: 0 0 70px 0;
+	padding: 0;
+	list-style: none;
+	gap: 50px;
 }
 
 .basket__item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 22px 19px 40px 15px;
-  border-bottom: 1px solid #e5e5e5;
-  transition: 0.2s ease;
-  &:hover {
-    background: #ffffff;
-    box-shadow: 0px 4px 10px rgba(243, 168, 0, 0.2);
-  }
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 22px 19px 40px 15px;
+	border-bottom: 1px solid #e5e5e5;
+	transition: 0.2s ease;
+	&:hover {
+		background: #ffffff;
+		box-shadow: 0px 4px 10px rgba(243, 168, 0, 0.2);
+	}
 
-  &:first-child {
-    margin-bottom: 50px;
-  }
+	&:first-child {
+		margin-bottom: 50px;
+	}
 }
 
 .basket__img {
-  margin-right: 31px;
+	margin-right: 31px;
 }
 
 .basket__left {
-  display: flex;
-  align-items: flex-start;
-  margin-right: 210px;
+	display: flex;
+	align-items: flex-start;
+	margin-right: 210px;
 }
 
 .trekoviy__titles {
-  margin: 0 0 2px 0;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 40px;
-  color: #535353;
+	margin: 0 0 2px 0;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 40px;
+	color: #535353;
 }
 
 .trekoviy__titless {
-  font-size: 16px;
-  line-height: 22px;
-  margin-bottom: 25px;
+	font-size: 16px;
+	line-height: 22px;
+	margin-bottom: 25px;
 }
 
 .trekoviy__text {
-  margin: 0;
-  color: #535353;
-  font-size: 14px;
-  line-height: 21px;
+	margin: 0;
+	color: #535353;
+	font-size: 14px;
+	line-height: 21px;
 }
 
 .trekoviy__all {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .trekoviy__box1 {
-  display: flex;
-  flex-direction: column;
-  padding-right: 25px;
-  border-right: 1px solid;
+	display: flex;
+	flex-direction: column;
+	padding-right: 25px;
+	border-right: 1px solid;
 }
 
 .trekoviy__box2 {
-  display: flex;
-  flex-direction: column;
-  padding-left: 25px;
+	display: flex;
+	flex-direction: column;
+	padding-left: 25px;
 }
 
 .trekoviy__span {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 23px;
-  color: #505050;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 23px;
+	color: #505050;
 }
 
 .right {
-  display: flex;
-  align-items: flex-start;
+	display: flex;
+	align-items: flex-start;
 }
 
 .right__add {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-right: 195px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 195px;
 }
 
 .right__btn1 {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 25px;
-  color: #ffffff;
-  padding: 0 15px 0 15px;
-  background: #3d4f64;
-  border-radius: 2px 0px 0px 2px;
-  border: none;
-  transition: 0.2s ease;
-  &:hover {
-    background-color: #f3a800;
-  }
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 25px;
+	color: #ffffff;
+	padding: 0 15px 0 15px;
+	background: #3d4f64;
+	border-radius: 2px 0px 0px 2px;
+	border: none;
+	transition: 0.2s ease;
+	&:hover {
+		background-color: #f3a800;
+	}
 }
 
 .right__btn2 {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 25px;
-  color: #ffffff;
-  padding: 0 15px 0 15px;
-  background: #3d4f64;
-  border-radius: 0px 2px 2px 0px;
-  border: none;
-  transition: 0.2s ease;
-  &:hover {
-    background-color: #f3a800;
-  }
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 25px;
+	color: #ffffff;
+	padding: 0 15px 0 15px;
+	background: #3d4f64;
+	border-radius: 0px 2px 2px 0px;
+	border: none;
+	transition: 0.2s ease;
+	&:hover {
+		background-color: #f3a800;
+	}
 }
 
 .right__span {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 38px;
-  color: #535353;
-  padding: 0 20px;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 38px;
+	color: #535353;
+	padding: 0 20px;
 }
 
 .right__spanLeft {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 40px;
-  color: #535353;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 40px;
+	color: #535353;
 }
 
 .right__total {
-  margin-right: 130px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 40px;
-  color: #535353;
+	margin-right: 130px;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 40px;
+	color: #535353;
 }
 
 .delete {
-  display: flex;
-  align-items: center;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 40px;
-  transition: 0.2s ease;
-  cursor: pointer;
-  .basket__item:hover & {
-    color: #f3a800;
-  }
+	display: flex;
+	align-items: center;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 40px;
+	transition: 0.2s ease;
+	cursor: pointer;
+	.basket__item:hover & {
+		color: #f3a800;
+	}
 }
 
 .deletePlus {
-  transform: rotateZ(45deg);
-  margin-right: 5px;
-  font-size: 25px;
-  transition: 0.2s ease;
+	transform: rotateZ(45deg);
+	margin-right: 5px;
+	font-size: 25px;
+	transition: 0.2s ease;
 
-  .basket__item:hover & {
-    color: #f3a800;
-  }
+	.basket__item:hover & {
+		color: #f3a800;
+	}
 }
 
 .basket__btns {
-  display: flex;
-  justify-content: flex-end;
-  gap: 16px;
+	display: flex;
+	justify-content: flex-end;
+	gap: 16px;
 }
 
 .basket__btn1 {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 40px;
-  color: #3d4f64;
-  border: none;
-  background-color: transparent;
-  padding: 2px 49px;
-  border: 1px solid #3d4f64;
-  cursor: pointer;
-  border-radius: 2px;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 40px;
+	color: #3d4f64;
+	border: none;
+	background-color: transparent;
+	padding: 2px 49px;
+	border: 1px solid #3d4f64;
+	cursor: pointer;
+	border-radius: 2px;
 }
+
 .basket__btn2 {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 40px;
-  color: #3d4f64;
-  background-color: #ffc94f;
-  padding: 2px 49px;
-  border-radius: 2px;
-  border: none;
-  cursor: pointer;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 40px;
+	color: #3d4f64;
+	background-color: #ffc94f;
+	padding: 2px 49px;
+	border-radius: 2px;
+	border: none;
+	cursor: pointer;
 }
 
 @media only screen and (max-width: 565px) {
-  .basket__item {
-    &:first-child {
-      margin-bottom: 25px;
-    }
-  }
-  .trekoviy {
-    padding-bottom: 10px;
-    border-bottom: 1px solid;
-  }
-  .basket__table {
-    display: none;
-  }
+	.basket__item {
+		&:first-child {
+			margin-bottom: 25px;
+		}
+	}
+	.trekoviy {
+		padding-bottom: 10px;
+		border-bottom: 1px solid;
+	}
+	.basket__table {
+		display: none;
+	}
 
-  .basket__item {
-    flex-direction: column;
-  }
+	.basket__item {
+		flex-direction: column;
+	}
 
-  .trekoviy__text {
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 16px;
-  }
+	.trekoviy__text {
+		font-weight: 400;
+		font-size: 11px;
+		line-height: 16px;
+	}
 
-  .basket__left {
-    margin-right: 0;
-  }
-  .basket__img {
-    margin-right: 12px;
-    width: 75px;
-    height: 55px;
-  }
+	.basket__left {
+		margin-right: 0;
+	}
+	.basket__img {
+		margin-right: 12px;
+		width: 75px;
+		height: 55px;
+	}
 
-  .right {
-    margin-left: 95px;
-    padding-top: 10px;
-    justify-content: space-between;
-    max-width: 253px;
-    width: 100%;
-  }
+	.right {
+		margin-left: 95px;
+		padding-top: 10px;
+		justify-content: space-between;
+		max-width: 253px;
+		width: 100%;
+	}
 
-  .right__add {
-    margin: 0;
-  }
+	.right__add {
+		margin: 0;
+	}
 
-  .right__total {
-    margin: 0;
-  }
+	.right__total {
+		margin: 0;
+	}
 
-  .right__box {
-    display: flex;
-  }
+	.right__box {
+		display: flex;
+	}
 
-  .delete {
-    display: none;
-  }
+	.delete {
+		display: none;
+	}
 
-  .basket__btns {
-    flex-direction: column;
-  }
+	.basket__btns {
+		flex-direction: column;
+	}
 
-  .basket__btn1, .basket__btn2 {
-    width: 100%;
-  }
+	.basket__btn1,
+	.basket__btn2 {
+		width: 100%;
+	}
 }

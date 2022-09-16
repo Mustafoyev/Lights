@@ -1,0 +1,149 @@
+.descript {
+	background-color: #fcfcfc;
+}
+
+.descript__top-list {
+	@include list-starter;
+	@include flex-starter;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #ededed;
+}
+
+.descript__top-item + .descript__top-item {
+	margin-left: 50px;
+}
+
+.descript__top-item-title {
+	margin: 0;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 250%;
+	color: #535353;
+	border: 1px solid transparent;
+
+	&:hover {
+		padding: 6px;
+		background-color: #3d4f64;
+		border-radius: 2px 2px 0px 2px;
+		color: #fff;
+	}
+}
+
+.descript__top-item-title--active {
+	padding: 6px;
+	background-color: #3d4f64;
+	border-radius: 2px 2px 0px 2px;
+	color: #fff;
+}
+
+.descript__content {
+	padding: 20px 0;
+}
+
+.descript__content-text {
+	margin: 0;
+	margin-bottom: 30px;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 171%;
+	color: #000000;
+}
+
+.descript__content-title {
+	margin: 0;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 250%;
+	color: #535353;
+}
+
+.descript__content-list {
+	@include list-starter;
+	margin-bottom: 40px;
+}
+
+.descript__content-item {
+	position: relative;
+	padding-left: 16px;
+
+	&::before {
+		position: absolute;
+		top: 8px;
+		left: 0;
+		width: 6px;
+		height: 6px;
+		background-color: #ffc94f;
+		border-radius: 50%;
+		content: '';
+	}
+}
+
+.descript__content-item-text {
+	margin: 0;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 171%;
+	color: #000000;
+}
+
+.descript__str {
+	display: inline-block;
+	margin-right: 20px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 250%;
+	color: #535353;
+}
+
+.descript__spa {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #535353;
+}
+
+.descript__mobil {
+	padding: 30px 0;
+}
+
+.descript__mobil-content {
+	padding: 10px 0;
+	border-bottom: 1px solid #ededed;
+}
+
+.descript__mobil-title {
+	position: relative;
+	list-style-type: none;
+	margin-top: 5px;
+	margin-bottom: 10px;
+
+	&::after {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 11px;
+		height: 7px;
+		background-image: url('../../images/Arrow.svg');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		content: '';
+	}
+}
+
+.descript__mobil {
+	display: none;
+}
+
+@include max-width(740px) {
+	.descript__top-list {
+		display: none;
+	}
+
+	.descript__content {
+		display: none;
+	}
+
+	.descript__mobil {
+		display: block;
+	}
+}

@@ -1,44 +1,48 @@
-@import "visually-hidden";
-@import "container";
-@import "header";
+@import 'visually-hidden';
+@import 'container';
+@import 'header';
+@import 'hero';
+@import 'katalog';
+@import 'services';
+@import 'new';
+@import 'download';
+@import 'question';
+@import 'footer';
 
 // Catalog SCSS
 
-@import "catalog-inner.scss";
-@import "catalog-filter";
+@import 'catalog-inner.scss';
+@import 'catalog-filter';
 
 // Catalog SCSS
 
 // Basket SCSS
 
-@import "basket-inner";
+@import 'basket-inner';
 
 // Basket SCSS
 
 // Servisec SCSS
 
-@import "servisec-inner";
+@import 'servisec-inner';
 
 // Servisec SCSS
 
-@import "company-inner";
+@import 'company-inner';
 
 // Company SCSS
 
-@import "footer";
-
 // Company SCSS
-
 
 // Registration SCSS
 
-@import "registration";
+@import 'registration';
 
 // Registration SCSS
 
 // Email SCSS
 
-@import "email";
+@import 'email';
 
 // Email SCSS
 

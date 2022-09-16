@@ -1,187 +1,232 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./css/main.css" />
-		<title>Доставка и оплата</title>
-	</head>
 
-	<body>
-		<!-- site-header -->
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./css/main.css" />
+	<title>Доставка и оплата</title>
+</head>
 
-		<header class="site-header">
+<body>
+	<!-- site-header -->
+
+	<header class="site-header">
+		<div class="container">
+			<div class="site-header__inner">
+				<a class="logo" href="./index.html">
+					<img class="logo__link" src="./images/logo.svg" alt="Site logotype" width="75" height="58" />
+				</a>
+
+				<nav class="navbar">
+					<ul class="navbar__list">
+						<li class="navbar__item">
+							<a class="navbar__link" href="./company.html">О компании</a>
+						</li>
+						<li class="navbar__item">
+							<a class="navbar__link" href="./services.html">Услуги</a>
+						</li>
+						<li class="navbar__item">
+							<a class="navbar__link" href="#">Проекты </a>
+						</li>
+						<li class="navbar__item">
+							<a class="navbar__link" href="./delivery.html">Доставка и оплата
+							</a>
+						</li>
+						<li class="navbar__item">
+							<a class="navbar__link" href="#">Контакты </a>
+						</li>
+						<li class="navbar__item">
+							<a class="navbar__link navbar__link--active" href="./basket.html">Подборка</a>
+						</li>
+					</ul>
+					<div class="site-header__links">
+						<a class="navbar__link navbar__link--mail" href="mailto:info@i-lights.ru">info@i-lights.ru
+						</a>
+						<a class="navbar__link navbar__link--tel" href="tel:+74952335557">+7 (495) 233 55 57</a>
+					</div>
+				</nav>
+				<button class="burger">
+					<span class="line"></span>
+					<span class="line"></span>
+					<span class="line"></span>
+				</button>
+			</div>
+		</div>
+	</header>
+
+	<!-- /site-header -->
+
+	<!-- site-main -->
+	<main class="site-main">
+		<section class="company__menu company delivery">
 			<div class="container">
-				<div class="site-header__inner">
-					<a class="logo" href="./index.html">
-						<img
-							class="logo__link"
-							src="./images/logo.svg"
-							alt="Site logotype"
-							width="75"
-							height="58"
-						/>
-					</a>
+				<div class="catalog__menu__inner company__inner delivery__inner">
+					<h2 class="catalog__menu__title">О компании</h2>
+					<ul class="company__list">
+						<li class="company__item company__item--active">
+							<a href="#" class="company__link company__link--active">
+								Физическим лицам
+							</a>
+						</li>
+						<li class="company__item">
+							<a href="#" class="company__link">
+								Физическим лицам
+							</a>
+						</li>
+						<li class="company__item">
+							<a href="#" class="company__link">
+								Бюджетным организациям
+							</a>
+						</li>
+					</ul>
+					<div class="delivery__country country">
+						<div class="country__russia russia">
+							<h3 class="russia__title">По Москве</h3>
+							<p class="russia__text">Доставка в течении 1 дня после подтверждения заказа. Оплата может
+								производиться как
+								наличными курьеру , так и путем перечисления денежных средств на счет организации с
+								банковского счета физ. лица или через кассу любого банка.</p>
+						</div>
+						<div class="country__refgions regions">
+							<h3 class="region__title">По Москве</h3>
+							<p class="region__text">Доставка в течении 1 дня после подтверждения заказа. Оплата может
+								производиться как
+								наличными курьеру , так и путем перечисления денежных средств на счет организации с
+								банковского счета физ. лица или через кассу любого банка.</p>
+						</div>
+					</div>
+					<div class="delivery__orders">
+						<ul class="orders__list">
+							<li class="orders__item">
+								<span class="orders__span">1</span>
+								<div class="orders__flex">
+									<p class="orders__text">Оформляете заявку в любой из форм на нашем сайте. Укажите
+										телефон или адрес
+										электронной почты для обратной связи. <br>
+										<strong>Либо заявку можно оформить
+											по телефону <a class="orders__tel" href="tel:+998901204122">8 495 233 55 57</a></strong>
+									</p>
+								</div>
+							</li>
+							<li class="orders__item">
+								<span class="orders__span">2</span>
+								<div class="orders__flex">
+									<p class="orders__text">Оформляете заявку в любой из форм на нашем сайте. Укажите
+										телефон или адрес
+										электронной почты для обратной связи.
+					
+									</p>
+								</div>
+							</li>
+							<li class="orders__item">
+								<span class="orders__span">3</span>
+								<div class="orders__flex">
+									<p class="orders__text">Оформляете заявку в любой из форм на нашем сайте. Укажите
+										телефон или адрес
+										электронной почты для обратной связи.
+									</p>
+								</div>
+							</li>
+						</ul>
+						<div class="registration__box delivery__box">
+							<form method="post" action="https://echo.htmlacademy.ru/">
+								<input class="regist__inpName" type="text" name="name" aria-label="name" placeholder="Ваше имя*">
+								<input class="regist__inpTel" type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" name="Telephone"
+									aria-label="Telephone" placeholder="Ваш телефон*">
+								<button class="regist__btn delivery__btn" type="submit">Отрпавлять</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<!-- /site-main -->
 
-					<nav class="navbar">
-						<ul class="navbar__list">
-							<li class="navbar__item">
-								<a class="navbar__link" href="./company.html">О компании</a>
-							</li>
-							<li class="navbar__item">
-								<a class="navbar__link" href="./services.html">Услуги</a>
-							</li>
-							<li class="navbar__item">
-								<a class="navbar__link" href="#">Проекты </a>
-							</li>
-							<li class="navbar__item">
-								<a class="navbar__link" href="./delivery.html"
-									>Доставка и оплата
+	<!-- ste-footer -->
+	<footer class="site-footer">
+		<div class="container">
+			<div class="site-footer__inner">
+				<div class="site-footer__logo">
+					<a class="logo-footer" href="./index.html">
+						<img class="logo-footer__img" src="./images/logo-footer.svg" alt="Logotype" width="66"
+							height="42" />
+					</a>
+					<span class="date date--active">© Technolight 2015-2021 </span>
+				</div>
+				<div class="wrapper">
+					<div class="site-footer__menu">
+						<strong class="site-footer__menu-title"> Каталог товаров </strong>
+						<ul class="site-footer__menu-list">
+							<li class="site-footer__menu-item">
+								<a class="site-footer__menu-link" href="#">Трековые светильники
 								</a>
 							</li>
-							<li class="navbar__item">
-								<a class="navbar__link" href="#">Контакты </a>
+							<li class="site-footer__menu-item">
+								<a class="site-footer__menu-link" href="#">Встраиваемые светильники</a>
 							</li>
-							<li class="navbar__item">
-								<a
-									class="navbar__link navbar__link--active"
-									href="./basket.html"
-									>Подборка</a
-								>
+							<li class="site-footer__menu-item">
+								<a class="site-footer__menu-link" href="#">Профильные светильники</a>
 							</li>
-						</ul>
-						<div class="site-header__links">
-							<a
-								class="navbar__link navbar__link--mail"
-								href="mailto:info@i-lights.ru"
-								>info@i-lights.ru
-							</a>
-							<a class="navbar__link navbar__link--tel" href="tel:+74952335557"
-								>+7 (495) 233 55 57</a
-							>
-						</div>
-					</nav>
-					<button class="burger">
-						<span class="line"></span>
-						<span class="line"></span>
-						<span class="line"></span>
-					</button>
-				</div>
-			</div>
-		</header>
-
-		<!-- /site-header -->
-
-		<!-- site-main -->
-		<main class="site-main"></main>
-		<!-- /site-main -->
-
-		<!-- ste-footer -->
-		<footer class="site-footer">
-			<div class="container">
-				<div class="site-footer__inner">
-					<div class="site-footer__logo">
-						<a class="logo-footer" href="./index.html">
-							<img
-								class="logo-footer__img"
-								src="./images/logo-footer.svg"
-								alt="Logotype"
-								width="66"
-								height="42"
-							/>
-						</a>
-						<span class="date date--active">© Technolight 2015-2021 </span>
-					</div>
-					<div class="wrapper">
-						<div class="site-footer__menu">
-							<strong class="site-footer__menu-title"> Каталог товаров </strong>
-							<ul class="site-footer__menu-list">
-								<li class="site-footer__menu-item">
-									<a class="site-footer__menu-link" href="#"
-										>Трековые светильники
-									</a>
-								</li>
-								<li class="site-footer__menu-item">
-									<a class="site-footer__menu-link" href="#"
-										>Встраиваемые светильники</a
-									>
-								</li>
-								<li class="site-footer__menu-item">
-									<a class="site-footer__menu-link" href="#"
-										>Профильные светильники</a
-									>
-								</li>
-								<li class="site-footer__menu-item">
-									<a class="site-footer__menu-link" href="#"
-										>Фигурные светильники</a
-									>
-								</li>
-								<li class="site-footer__menu-item">
-									<a class="site-footer__menu-link" href="#"
-										>Светильники Армстронг</a
-									>
-								</li>
-								<li class="site-footer__menu-item">
-									<a class="site-footer__menu-link" href="#"
-										>Армстронг с равномерной засветкой</a
-									>
-								</li>
-								<li class="site-footer__menu-item">
-									<a class="site-footer__menu-link" href="#">Произовдители</a>
-								</li>
-							</ul>
-						</div>
-						<div class="site-footer__links">
-							<ul class="site-footer__links-list">
-								<li class="site-footer__links-item">
-									<a class="site-footer__links-link" href="#">Как заказать </a>
-								</li>
-								<li class="site-footer__links-item">
-									<a class="site-footer__links-link" href="#">Оплата</a>
-								</li>
-								<li class="site-footer__links-item">
-									<a class="site-footer__links-link" href="#">Доставка</a>
-								</li>
-								<li class="site-footer__links-item">
-									<a class="site-footer__links-link" href="#"
-										>Реквизиты компании</a
-									>
-								</li>
-								<li class="site-footer__links-item">
-									<a class="site-footer__links-link" href="#"
-										>Правовая информация</a
-									>
-								</li>
-								<li class="site-footer__links-item">
-									<a class="site-footer__links-link" href="#">FAQ</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="site-footer__info">
-						<strong class="site-footer__info-title">Контакты </strong>
-						<ul class="site-footer__info-list">
-							<li class="site-footer__info-item">
-								<a class="site-footer__info-link" href="#">место магазина</a>
+							<li class="site-footer__menu-item">
+								<a class="site-footer__menu-link" href="#">Фигурные светильники</a>
 							</li>
-							<li class="site-footer__info-item">
-								<a class="site-footer__info-link" href="tel:+74952335557"
-									>+7 (495) 233 55 57</a
-								>
+							<li class="site-footer__menu-item">
+								<a class="site-footer__menu-link" href="#">Светильники Армстронг</a>
 							</li>
-							<li class="site-footer__info-item">
-								<a class="site-footer__info-link" href="mailto:info@i-lights.ru"
-									>info@i-lights.ru</a
-								>
+							<li class="site-footer__menu-item">
+								<a class="site-footer__menu-link" href="#">Армстронг с равномерной засветкой</a>
+							</li>
+							<li class="site-footer__menu-item">
+								<a class="site-footer__menu-link" href="#">Произовдители</a>
 							</li>
 						</ul>
 					</div>
-					<span class="etad">© Technolight 2015-2021 </span>
+					<div class="site-footer__links">
+						<ul class="site-footer__links-list">
+							<li class="site-footer__links-item">
+								<a class="site-footer__links-link" href="#">Как заказать </a>
+							</li>
+							<li class="site-footer__links-item">
+								<a class="site-footer__links-link" href="#">Оплата</a>
+							</li>
+							<li class="site-footer__links-item">
+								<a class="site-footer__links-link" href="#">Доставка</a>
+							</li>
+							<li class="site-footer__links-item">
+								<a class="site-footer__links-link" href="#">Реквизиты компании</a>
+							</li>
+							<li class="site-footer__links-item">
+								<a class="site-footer__links-link" href="#">Правовая информация</a>
+							</li>
+							<li class="site-footer__links-item">
+								<a class="site-footer__links-link" href="#">FAQ</a>
+							</li>
+						</ul>
+					</div>
 				</div>
+				<div class="site-footer__info">
+					<strong class="site-footer__info-title">Контакты </strong>
+					<ul class="site-footer__info-list">
+						<li class="site-footer__info-item">
+							<a class="site-footer__info-link" href="#">место магазина</a>
+						</li>
+						<li class="site-footer__info-item">
+							<a class="site-footer__info-link" href="tel:+74952335557">+7 (495) 233 55 57</a>
+						</li>
+						<li class="site-footer__info-item">
+							<a class="site-footer__info-link" href="mailto:info@i-lights.ru">info@i-lights.ru</a>
+						</li>
+					</ul>
+				</div>
+				<span class="etad">© Technolight 2015-2021 </span>
 			</div>
-		</footer>
-		<!-- /ste-footer -->
-		<script src="./js/main.js"></script>
-	</body>
+		</div>
+	</footer>
+	<!-- /ste-footer -->
+	<script src="./js/main.js"></script>
+</body>
+
 </html>
